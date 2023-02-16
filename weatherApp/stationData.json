@@ -1,0 +1,94 @@
+{
+    "@context": [
+        "https://geojson.org/geojson-ld/geojson-context.jsonld",
+        {
+            "@version": "1.1",
+            "wx": "https://api.weather.gov/ontology#",
+            "s": "https://schema.org/",
+            "geo": "http://www.opengis.net/ont/geosparql#",
+            "unit": "http://codes.wmo.int/common/unit/",
+            "@vocab": "https://api.weather.gov/ontology#",
+            "geometry": {
+                "@id": "s:GeoCoordinates",
+                "@type": "geo:wktLiteral"
+            },
+            "city": "s:addressLocality",
+            "state": "s:addressRegion",
+            "distance": {
+                "@id": "s:Distance",
+                "@type": "s:QuantitativeValue"
+            },
+            "bearing": {
+                "@type": "s:QuantitativeValue"
+            },
+            "value": {
+                "@id": "s:value"
+            },
+            "unitCode": {
+                "@id": "s:unitCode",
+                "@type": "@id"
+            },
+            "forecastOffice": {
+                "@type": "@id"
+            },
+            "forecastGridData": {
+                "@type": "@id"
+            },
+            "publicZone": {
+                "@type": "@id"
+            },
+            "county": {
+                "@type": "@id"
+            }
+        }
+    ],
+    "id": "https://api.weather.gov/points/30.1799,-92.0557",
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -92.055700000000002,
+            30.1799
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/points/30.1799,-92.0557",
+        "@type": "wx:Point",
+        "cwa": "LCH",
+        "forecastOffice": "https://api.weather.gov/offices/LCH",
+        "gridId": "LCH",
+        "gridX": 103,
+        "gridY": 92,
+        "forecast": "https://api.weather.gov/gridpoints/LCH/103,92/forecast",
+        "forecastHourly": "https://api.weather.gov/gridpoints/LCH/103,92/forecast/hourly",
+        "forecastGridData": "https://api.weather.gov/gridpoints/LCH/103,92",
+        "observationStations": "https://api.weather.gov/gridpoints/LCH/103,92/stations",
+        "relativeLocation": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -92.028482999999994,
+                    30.207432000000001
+                ]
+            },
+            "properties": {
+                "city": "Lafayette",
+                "state": "LA",
+                "distance": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 4026.7548844623002
+                },
+                "bearing": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 220
+                }
+            }
+        },
+        "forecastZone": "https://api.weather.gov/zones/forecast/LAZ044",
+        "county": "https://api.weather.gov/zones/county/LAC055",
+        "fireWeatherZone": "https://api.weather.gov/zones/fire/LAZ044",
+        "timeZone": "America/Chicago",
+        "radarStation": "KLCH"
+    }
+}
