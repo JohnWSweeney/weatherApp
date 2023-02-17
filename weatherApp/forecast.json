@@ -41,7 +41,7 @@
         "updated": "2023-02-17T21:00:32+00:00",
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2023-02-17T21:11:10+00:00",
+        "generatedAt": "2023-02-17T23:11:19+00:00",
         "updateTime": "2023-02-17T21:00:32+00:00",
         "validTimes": "2023-02-17T15:00:00+00:00/P7DT22H",
         "elevation": {
@@ -52,7 +52,7 @@
             {
                 "number": 1,
                 "name": "This Afternoon",
-                "startTime": "2023-02-17T15:00:00-06:00",
+                "startTime": "2023-02-17T17:00:00-06:00",
                 "endTime": "2023-02-17T18:00:00-06:00",
                 "isDaytime": true,
                 "temperature": 50,
@@ -64,17 +64,17 @@
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 0
+                    "value": -0.55555555555555558
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 56
+                    "value": 55
                 },
                 "windSpeed": "20 mph",
                 "windDirection": "N",
-                "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
-                "shortForecast": "Partly Sunny",
-                "detailedForecast": "Partly sunny. High near 50, with temperatures falling to around 46 in the afternoon. North wind around 20 mph, with gusts as high as 30 mph."
+                "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+                "shortForecast": "Mostly Sunny",
+                "detailedForecast": "Mostly sunny. High near 50, with temperatures falling to around 46 in the afternoon. North wind around 20 mph, with gusts as high as 30 mph."
             },
             {
                 "number": 2,

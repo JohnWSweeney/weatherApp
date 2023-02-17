@@ -9,6 +9,23 @@
 
 using json = nlohmann::json;
 
+void getCoordinates()
+{
+	// Get coordinates
+	std::string filePath = "D:/CPP/weatherApp/weatherApp/coordinates.json";
+	std::string url = "https://geocoding.geo.census.gov/geocoder/locations/address?street=305+Gerald&zip=70503&benchmark=2020&format=json";
+
+	LPCTSTR wsFilePath = filePath.c_str();
+	LPCTSTR wsUrl = url.c_str();
+
+	if (S_OK == URLDownloadToFile(NULL, wsUrl, wsFilePath, 0, NULL)) {
+		std::cout << "Coordinates downloaded." << std::endl;
+	}
+	else {
+		std::cout << "Coordinates download failed." << std::endl;
+	}
+}
+
 void getForecast()
 {
 	// Get station data
@@ -62,7 +79,7 @@ void getForecast()
 	std::cout << std::endl;
 }
 
-void CurrentConditions()
+void currentConditions()
 {
 	std::ifstream data("D:/CPP/weatherApp/weatherApp/forecast.json");
 	std::stringstream buffer;
@@ -79,7 +96,7 @@ void CurrentConditions()
 	std::cout << std::endl;
 }
 
-void Forecast()
+void hourlyForecast()
 {
 	std::ifstream data("D:/CPP/weatherApp/weatherApp/hourlyForecast.json");
 	std::stringstream buffer;
@@ -97,9 +114,10 @@ void Forecast()
 
 int main()
 {
+	getCoordinates();
 	getForecast();
-	CurrentConditions();
-	Forecast();
+	currentConditions();
+	hourlyForecast();
 
 	system("pause");
 }
