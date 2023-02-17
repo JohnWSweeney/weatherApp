@@ -62,10 +62,8 @@ void getForecast()
 	std::cout << std::endl;
 }
 
-int main()
+void CurrentConditions()
 {
-	getForecast();
-
 	std::ifstream data("D:/CPP/weatherApp/weatherApp/forecast.json");
 	std::stringstream buffer;
 	buffer << data.rdbuf();
@@ -79,6 +77,29 @@ int main()
 	std::string detailedForecast = forecastData["properties"]["periods"][0]["detailedForecast"].get<std::string>();
 	std::cout << detailedForecast << std::endl;
 	std::cout << std::endl;
+}
+
+void Forecast()
+{
+	std::ifstream data("D:/CPP/weatherApp/weatherApp/hourlyForecast.json");
+	std::stringstream buffer;
+	buffer << data.rdbuf();
+	json hourlyForecastData = nlohmann::json::parse(buffer.str());
+
+	std::cout << "Forecast:" << std::endl;
+	for (int i = 0; i < 155; i++)
+	{
+		int temp = hourlyForecastData["properties"]["periods"][i]["temperature"].get<int>();
+		std::string time = hourlyForecastData["properties"]["periods"][i]["startTime"].get<std::string>();
+		std::cout << time << " " << temp << " \370F" << std::endl;
+	}
+}
+
+int main()
+{
+	getForecast();
+	CurrentConditions();
+	Forecast();
 
 	system("pause");
 }

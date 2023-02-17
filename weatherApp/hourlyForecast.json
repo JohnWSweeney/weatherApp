@@ -38,12 +38,12 @@
         ]
     },
     "properties": {
-        "updated": "2023-02-17T18:05:41+00:00",
+        "updated": "2023-02-17T21:00:32+00:00",
         "units": "us",
         "forecastGenerator": "HourlyForecastGenerator",
-        "generatedAt": "2023-02-17T19:32:53+00:00",
-        "updateTime": "2023-02-17T18:05:41+00:00",
-        "validTimes": "2023-02-17T12:00:00+00:00/P7DT13H",
+        "generatedAt": "2023-02-17T21:37:28+00:00",
+        "updateTime": "2023-02-17T21:00:32+00:00",
+        "validTimes": "2023-02-17T15:00:00+00:00/P7DT22H",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 7.9248000000000003
@@ -51,60 +51,6 @@
         "periods": [
             {
                 "number": 1,
-                "name": "",
-                "startTime": "2023-02-17T13:00:00-06:00",
-                "endTime": "2023-02-17T14:00:00-06:00",
-                "isDaytime": true,
-                "temperature": 46,
-                "temperatureUnit": "F",
-                "temperatureTrend": null,
-                "probabilityOfPrecipitation": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 0
-                },
-                "dewpoint": {
-                    "unitCode": "wmoUnit:degC",
-                    "value": 0
-                },
-                "relativeHumidity": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 58
-                },
-                "windSpeed": "20 mph",
-                "windDirection": "N",
-                "icon": "https://api.weather.gov/icons/land/day/sct,0?size=small",
-                "shortForecast": "Mostly Sunny",
-                "detailedForecast": ""
-            },
-            {
-                "number": 2,
-                "name": "",
-                "startTime": "2023-02-17T14:00:00-06:00",
-                "endTime": "2023-02-17T15:00:00-06:00",
-                "isDaytime": true,
-                "temperature": 47,
-                "temperatureUnit": "F",
-                "temperatureTrend": null,
-                "probabilityOfPrecipitation": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 0
-                },
-                "dewpoint": {
-                    "unitCode": "wmoUnit:degC",
-                    "value": 0
-                },
-                "relativeHumidity": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 56
-                },
-                "windSpeed": "20 mph",
-                "windDirection": "N",
-                "icon": "https://api.weather.gov/icons/land/day/sct,0?size=small",
-                "shortForecast": "Mostly Sunny",
-                "detailedForecast": ""
-            },
-            {
-                "number": 3,
                 "name": "",
                 "startTime": "2023-02-17T15:00:00-06:00",
                 "endTime": "2023-02-17T16:00:00-06:00",
@@ -131,7 +77,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 4,
+                "number": 2,
                 "name": "",
                 "startTime": "2023-02-17T16:00:00-06:00",
                 "endTime": "2023-02-17T17:00:00-06:00",
@@ -158,7 +104,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 5,
+                "number": 3,
                 "name": "",
                 "startTime": "2023-02-17T17:00:00-06:00",
                 "endTime": "2023-02-17T18:00:00-06:00",
@@ -185,7 +131,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 6,
+                "number": 4,
                 "name": "",
                 "startTime": "2023-02-17T18:00:00-06:00",
                 "endTime": "2023-02-17T19:00:00-06:00",
@@ -212,7 +158,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 7,
+                "number": 5,
                 "name": "",
                 "startTime": "2023-02-17T19:00:00-06:00",
                 "endTime": "2023-02-17T20:00:00-06:00",
@@ -239,7 +185,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 8,
+                "number": 6,
                 "name": "",
                 "startTime": "2023-02-17T20:00:00-06:00",
                 "endTime": "2023-02-17T21:00:00-06:00",
@@ -266,7 +212,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 9,
+                "number": 7,
                 "name": "",
                 "startTime": "2023-02-17T21:00:00-06:00",
                 "endTime": "2023-02-17T22:00:00-06:00",
@@ -293,7 +239,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 10,
+                "number": 8,
                 "name": "",
                 "startTime": "2023-02-17T22:00:00-06:00",
                 "endTime": "2023-02-17T23:00:00-06:00",
@@ -320,7 +266,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 11,
+                "number": 9,
                 "name": "",
                 "startTime": "2023-02-17T23:00:00-06:00",
                 "endTime": "2023-02-18T00:00:00-06:00",
@@ -347,7 +293,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 12,
+                "number": 10,
                 "name": "",
                 "startTime": "2023-02-18T00:00:00-06:00",
                 "endTime": "2023-02-18T01:00:00-06:00",
@@ -374,7 +320,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 13,
+                "number": 11,
                 "name": "",
                 "startTime": "2023-02-18T01:00:00-06:00",
                 "endTime": "2023-02-18T02:00:00-06:00",
@@ -401,7 +347,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 14,
+                "number": 12,
                 "name": "",
                 "startTime": "2023-02-18T02:00:00-06:00",
                 "endTime": "2023-02-18T03:00:00-06:00",
@@ -428,7 +374,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 15,
+                "number": 13,
                 "name": "",
                 "startTime": "2023-02-18T03:00:00-06:00",
                 "endTime": "2023-02-18T04:00:00-06:00",
@@ -455,7 +401,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 16,
+                "number": 14,
                 "name": "",
                 "startTime": "2023-02-18T04:00:00-06:00",
                 "endTime": "2023-02-18T05:00:00-06:00",
@@ -482,7 +428,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 17,
+                "number": 15,
                 "name": "",
                 "startTime": "2023-02-18T05:00:00-06:00",
                 "endTime": "2023-02-18T06:00:00-06:00",
@@ -509,7 +455,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 18,
+                "number": 16,
                 "name": "",
                 "startTime": "2023-02-18T06:00:00-06:00",
                 "endTime": "2023-02-18T07:00:00-06:00",
@@ -536,7 +482,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 19,
+                "number": 17,
                 "name": "",
                 "startTime": "2023-02-18T07:00:00-06:00",
                 "endTime": "2023-02-18T08:00:00-06:00",
@@ -563,7 +509,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 20,
+                "number": 18,
                 "name": "",
                 "startTime": "2023-02-18T08:00:00-06:00",
                 "endTime": "2023-02-18T09:00:00-06:00",
@@ -590,7 +536,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 21,
+                "number": 19,
                 "name": "",
                 "startTime": "2023-02-18T09:00:00-06:00",
                 "endTime": "2023-02-18T10:00:00-06:00",
@@ -617,7 +563,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 22,
+                "number": 20,
                 "name": "",
                 "startTime": "2023-02-18T10:00:00-06:00",
                 "endTime": "2023-02-18T11:00:00-06:00",
@@ -644,7 +590,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 23,
+                "number": 21,
                 "name": "",
                 "startTime": "2023-02-18T11:00:00-06:00",
                 "endTime": "2023-02-18T12:00:00-06:00",
@@ -671,7 +617,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 24,
+                "number": 22,
                 "name": "",
                 "startTime": "2023-02-18T12:00:00-06:00",
                 "endTime": "2023-02-18T13:00:00-06:00",
@@ -698,7 +644,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 25,
+                "number": 23,
                 "name": "",
                 "startTime": "2023-02-18T13:00:00-06:00",
                 "endTime": "2023-02-18T14:00:00-06:00",
@@ -725,7 +671,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 26,
+                "number": 24,
                 "name": "",
                 "startTime": "2023-02-18T14:00:00-06:00",
                 "endTime": "2023-02-18T15:00:00-06:00",
@@ -752,7 +698,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 27,
+                "number": 25,
                 "name": "",
                 "startTime": "2023-02-18T15:00:00-06:00",
                 "endTime": "2023-02-18T16:00:00-06:00",
@@ -779,7 +725,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 28,
+                "number": 26,
                 "name": "",
                 "startTime": "2023-02-18T16:00:00-06:00",
                 "endTime": "2023-02-18T17:00:00-06:00",
@@ -806,7 +752,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 29,
+                "number": 27,
                 "name": "",
                 "startTime": "2023-02-18T17:00:00-06:00",
                 "endTime": "2023-02-18T18:00:00-06:00",
@@ -833,7 +779,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 30,
+                "number": 28,
                 "name": "",
                 "startTime": "2023-02-18T18:00:00-06:00",
                 "endTime": "2023-02-18T19:00:00-06:00",
@@ -860,7 +806,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 31,
+                "number": 29,
                 "name": "",
                 "startTime": "2023-02-18T19:00:00-06:00",
                 "endTime": "2023-02-18T20:00:00-06:00",
@@ -887,7 +833,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 32,
+                "number": 30,
                 "name": "",
                 "startTime": "2023-02-18T20:00:00-06:00",
                 "endTime": "2023-02-18T21:00:00-06:00",
@@ -914,7 +860,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 33,
+                "number": 31,
                 "name": "",
                 "startTime": "2023-02-18T21:00:00-06:00",
                 "endTime": "2023-02-18T22:00:00-06:00",
@@ -941,7 +887,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 34,
+                "number": 32,
                 "name": "",
                 "startTime": "2023-02-18T22:00:00-06:00",
                 "endTime": "2023-02-18T23:00:00-06:00",
@@ -968,7 +914,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 35,
+                "number": 33,
                 "name": "",
                 "startTime": "2023-02-18T23:00:00-06:00",
                 "endTime": "2023-02-19T00:00:00-06:00",
@@ -995,7 +941,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 36,
+                "number": 34,
                 "name": "",
                 "startTime": "2023-02-19T00:00:00-06:00",
                 "endTime": "2023-02-19T01:00:00-06:00",
@@ -1022,7 +968,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 37,
+                "number": 35,
                 "name": "",
                 "startTime": "2023-02-19T01:00:00-06:00",
                 "endTime": "2023-02-19T02:00:00-06:00",
@@ -1049,7 +995,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 38,
+                "number": 36,
                 "name": "",
                 "startTime": "2023-02-19T02:00:00-06:00",
                 "endTime": "2023-02-19T03:00:00-06:00",
@@ -1076,7 +1022,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 39,
+                "number": 37,
                 "name": "",
                 "startTime": "2023-02-19T03:00:00-06:00",
                 "endTime": "2023-02-19T04:00:00-06:00",
@@ -1103,7 +1049,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 40,
+                "number": 38,
                 "name": "",
                 "startTime": "2023-02-19T04:00:00-06:00",
                 "endTime": "2023-02-19T05:00:00-06:00",
@@ -1130,7 +1076,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 41,
+                "number": 39,
                 "name": "",
                 "startTime": "2023-02-19T05:00:00-06:00",
                 "endTime": "2023-02-19T06:00:00-06:00",
@@ -1157,7 +1103,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 42,
+                "number": 40,
                 "name": "",
                 "startTime": "2023-02-19T06:00:00-06:00",
                 "endTime": "2023-02-19T07:00:00-06:00",
@@ -1184,7 +1130,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 43,
+                "number": 41,
                 "name": "",
                 "startTime": "2023-02-19T07:00:00-06:00",
                 "endTime": "2023-02-19T08:00:00-06:00",
@@ -1211,7 +1157,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 44,
+                "number": 42,
                 "name": "",
                 "startTime": "2023-02-19T08:00:00-06:00",
                 "endTime": "2023-02-19T09:00:00-06:00",
@@ -1238,7 +1184,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 45,
+                "number": 43,
                 "name": "",
                 "startTime": "2023-02-19T09:00:00-06:00",
                 "endTime": "2023-02-19T10:00:00-06:00",
@@ -1265,7 +1211,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 46,
+                "number": 44,
                 "name": "",
                 "startTime": "2023-02-19T10:00:00-06:00",
                 "endTime": "2023-02-19T11:00:00-06:00",
@@ -1292,7 +1238,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 47,
+                "number": 45,
                 "name": "",
                 "startTime": "2023-02-19T11:00:00-06:00",
                 "endTime": "2023-02-19T12:00:00-06:00",
@@ -1319,7 +1265,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 48,
+                "number": 46,
                 "name": "",
                 "startTime": "2023-02-19T12:00:00-06:00",
                 "endTime": "2023-02-19T13:00:00-06:00",
@@ -1346,7 +1292,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 49,
+                "number": 47,
                 "name": "",
                 "startTime": "2023-02-19T13:00:00-06:00",
                 "endTime": "2023-02-19T14:00:00-06:00",
@@ -1373,7 +1319,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 50,
+                "number": 48,
                 "name": "",
                 "startTime": "2023-02-19T14:00:00-06:00",
                 "endTime": "2023-02-19T15:00:00-06:00",
@@ -1400,7 +1346,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 51,
+                "number": 49,
                 "name": "",
                 "startTime": "2023-02-19T15:00:00-06:00",
                 "endTime": "2023-02-19T16:00:00-06:00",
@@ -1427,7 +1373,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 52,
+                "number": 50,
                 "name": "",
                 "startTime": "2023-02-19T16:00:00-06:00",
                 "endTime": "2023-02-19T17:00:00-06:00",
@@ -1454,7 +1400,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 53,
+                "number": 51,
                 "name": "",
                 "startTime": "2023-02-19T17:00:00-06:00",
                 "endTime": "2023-02-19T18:00:00-06:00",
@@ -1481,7 +1427,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 54,
+                "number": 52,
                 "name": "",
                 "startTime": "2023-02-19T18:00:00-06:00",
                 "endTime": "2023-02-19T19:00:00-06:00",
@@ -1508,7 +1454,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 55,
+                "number": 53,
                 "name": "",
                 "startTime": "2023-02-19T19:00:00-06:00",
                 "endTime": "2023-02-19T20:00:00-06:00",
@@ -1535,7 +1481,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 56,
+                "number": 54,
                 "name": "",
                 "startTime": "2023-02-19T20:00:00-06:00",
                 "endTime": "2023-02-19T21:00:00-06:00",
@@ -1562,7 +1508,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 57,
+                "number": 55,
                 "name": "",
                 "startTime": "2023-02-19T21:00:00-06:00",
                 "endTime": "2023-02-19T22:00:00-06:00",
@@ -1589,7 +1535,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 58,
+                "number": 56,
                 "name": "",
                 "startTime": "2023-02-19T22:00:00-06:00",
                 "endTime": "2023-02-19T23:00:00-06:00",
@@ -1616,7 +1562,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 59,
+                "number": 57,
                 "name": "",
                 "startTime": "2023-02-19T23:00:00-06:00",
                 "endTime": "2023-02-20T00:00:00-06:00",
@@ -1643,7 +1589,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 60,
+                "number": 58,
                 "name": "",
                 "startTime": "2023-02-20T00:00:00-06:00",
                 "endTime": "2023-02-20T01:00:00-06:00",
@@ -1670,7 +1616,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 61,
+                "number": 59,
                 "name": "",
                 "startTime": "2023-02-20T01:00:00-06:00",
                 "endTime": "2023-02-20T02:00:00-06:00",
@@ -1692,12 +1638,12 @@
                 },
                 "windSpeed": "10 mph",
                 "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/night/fog,0?size=small",
-                "shortForecast": "Patchy Fog",
+                "icon": "https://api.weather.gov/icons/land/night/sct,0?size=small",
+                "shortForecast": "Partly Cloudy",
                 "detailedForecast": ""
             },
             {
-                "number": 62,
+                "number": 60,
                 "name": "",
                 "startTime": "2023-02-20T02:00:00-06:00",
                 "endTime": "2023-02-20T03:00:00-06:00",
@@ -1719,12 +1665,12 @@
                 },
                 "windSpeed": "10 mph",
                 "windDirection": "SW",
-                "icon": "https://api.weather.gov/icons/land/night/fog,0?size=small",
-                "shortForecast": "Patchy Fog",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,0?size=small",
+                "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
-                "number": 63,
+                "number": 61,
                 "name": "",
                 "startTime": "2023-02-20T03:00:00-06:00",
                 "endTime": "2023-02-20T04:00:00-06:00",
@@ -1746,12 +1692,12 @@
                 },
                 "windSpeed": "10 mph",
                 "windDirection": "SW",
-                "icon": "https://api.weather.gov/icons/land/night/fog,0?size=small",
-                "shortForecast": "Areas Of Fog",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,0?size=small",
+                "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
-                "number": 64,
+                "number": 62,
                 "name": "",
                 "startTime": "2023-02-20T04:00:00-06:00",
                 "endTime": "2023-02-20T05:00:00-06:00",
@@ -1773,12 +1719,12 @@
                 },
                 "windSpeed": "10 mph",
                 "windDirection": "SW",
-                "icon": "https://api.weather.gov/icons/land/night/fog,0?size=small",
-                "shortForecast": "Widespread Fog",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,0?size=small",
+                "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
-                "number": 65,
+                "number": 63,
                 "name": "",
                 "startTime": "2023-02-20T05:00:00-06:00",
                 "endTime": "2023-02-20T06:00:00-06:00",
@@ -1800,17 +1746,17 @@
                 },
                 "windSpeed": "10 mph",
                 "windDirection": "SW",
-                "icon": "https://api.weather.gov/icons/land/night/fog,0?size=small",
-                "shortForecast": "Areas Of Fog",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,0?size=small",
+                "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
-                "number": 66,
+                "number": 64,
                 "name": "",
                 "startTime": "2023-02-20T06:00:00-06:00",
                 "endTime": "2023-02-20T07:00:00-06:00",
                 "isDaytime": true,
-                "temperature": 59,
+                "temperature": 58,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
@@ -1819,7 +1765,7 @@
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 14.444444444444445
+                    "value": 13.888888888888889
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
@@ -1827,12 +1773,12 @@
                 },
                 "windSpeed": "10 mph",
                 "windDirection": "SW",
-                "icon": "https://api.weather.gov/icons/land/day/fog,0?size=small",
-                "shortForecast": "Patchy Fog",
+                "icon": "https://api.weather.gov/icons/land/day/bkn,0?size=small",
+                "shortForecast": "Partly Sunny",
                 "detailedForecast": ""
             },
             {
-                "number": 67,
+                "number": 65,
                 "name": "",
                 "startTime": "2023-02-20T07:00:00-06:00",
                 "endTime": "2023-02-20T08:00:00-06:00",
@@ -1850,16 +1796,16 @@
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 93
+                    "value": 94
                 },
                 "windSpeed": "10 mph",
                 "windDirection": "SW",
-                "icon": "https://api.weather.gov/icons/land/day/fog,0?size=small",
-                "shortForecast": "Patchy Fog",
+                "icon": "https://api.weather.gov/icons/land/day/bkn,0?size=small",
+                "shortForecast": "Partly Sunny",
                 "detailedForecast": ""
             },
             {
-                "number": 68,
+                "number": 66,
                 "name": "",
                 "startTime": "2023-02-20T08:00:00-06:00",
                 "endTime": "2023-02-20T09:00:00-06:00",
@@ -1877,7 +1823,7 @@
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 90
+                    "value": 89
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "SW",
@@ -1886,12 +1832,12 @@
                 "detailedForecast": ""
             },
             {
-                "number": 69,
+                "number": 67,
                 "name": "",
                 "startTime": "2023-02-20T09:00:00-06:00",
                 "endTime": "2023-02-20T10:00:00-06:00",
                 "isDaytime": true,
-                "temperature": 65,
+                "temperature": 66,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
@@ -1900,7 +1846,7 @@
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 16.111111111111111
+                    "value": 16.666666666666668
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
@@ -1913,12 +1859,12 @@
                 "detailedForecast": ""
             },
             {
-                "number": 70,
+                "number": 68,
                 "name": "",
                 "startTime": "2023-02-20T10:00:00-06:00",
                 "endTime": "2023-02-20T11:00:00-06:00",
                 "isDaytime": true,
-                "temperature": 68,
+                "temperature": 69,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
@@ -1927,11 +1873,11 @@
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 16.111111111111111
+                    "value": 16.666666666666668
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 78
+                    "value": 79
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "SW",
@@ -1940,7 +1886,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 71,
+                "number": 69,
                 "name": "",
                 "startTime": "2023-02-20T11:00:00-06:00",
                 "endTime": "2023-02-20T12:00:00-06:00",
@@ -1958,7 +1904,7 @@
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 73
+                    "value": 72
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "SW",
@@ -1967,7 +1913,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 72,
+                "number": 70,
                 "name": "",
                 "startTime": "2023-02-20T12:00:00-06:00",
                 "endTime": "2023-02-20T13:00:00-06:00",
@@ -1994,10 +1940,64 @@
                 "detailedForecast": ""
             },
             {
-                "number": 73,
+                "number": 71,
                 "name": "",
                 "startTime": "2023-02-20T13:00:00-06:00",
                 "endTime": "2023-02-20T14:00:00-06:00",
+                "isDaytime": true,
+                "temperature": 74,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "probabilityOfPrecipitation": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 1
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 16.666666666666668
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 65
+                },
+                "windSpeed": "20 mph",
+                "windDirection": "SW",
+                "icon": "https://api.weather.gov/icons/land/day/bkn,1?size=small",
+                "shortForecast": "Mostly Cloudy",
+                "detailedForecast": ""
+            },
+            {
+                "number": 72,
+                "name": "",
+                "startTime": "2023-02-20T14:00:00-06:00",
+                "endTime": "2023-02-20T15:00:00-06:00",
+                "isDaytime": true,
+                "temperature": 75,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "probabilityOfPrecipitation": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 1
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 16.666666666666668
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 65
+                },
+                "windSpeed": "20 mph",
+                "windDirection": "SW",
+                "icon": "https://api.weather.gov/icons/land/day/bkn,1?size=small",
+                "shortForecast": "Mostly Cloudy",
+                "detailedForecast": ""
+            },
+            {
+                "number": 73,
+                "name": "",
+                "startTime": "2023-02-20T15:00:00-06:00",
+                "endTime": "2023-02-20T16:00:00-06:00",
                 "isDaytime": true,
                 "temperature": 75,
                 "temperatureUnit": "F",
@@ -2023,60 +2023,6 @@
             {
                 "number": 74,
                 "name": "",
-                "startTime": "2023-02-20T14:00:00-06:00",
-                "endTime": "2023-02-20T15:00:00-06:00",
-                "isDaytime": true,
-                "temperature": 75,
-                "temperatureUnit": "F",
-                "temperatureTrend": null,
-                "probabilityOfPrecipitation": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 1
-                },
-                "dewpoint": {
-                    "unitCode": "wmoUnit:degC",
-                    "value": 16.666666666666668
-                },
-                "relativeHumidity": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 64
-                },
-                "windSpeed": "20 mph",
-                "windDirection": "SW",
-                "icon": "https://api.weather.gov/icons/land/day/bkn,1?size=small",
-                "shortForecast": "Mostly Cloudy",
-                "detailedForecast": ""
-            },
-            {
-                "number": 75,
-                "name": "",
-                "startTime": "2023-02-20T15:00:00-06:00",
-                "endTime": "2023-02-20T16:00:00-06:00",
-                "isDaytime": true,
-                "temperature": 76,
-                "temperatureUnit": "F",
-                "temperatureTrend": null,
-                "probabilityOfPrecipitation": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 1
-                },
-                "dewpoint": {
-                    "unitCode": "wmoUnit:degC",
-                    "value": 16.666666666666668
-                },
-                "relativeHumidity": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 62
-                },
-                "windSpeed": "20 mph",
-                "windDirection": "SW",
-                "icon": "https://api.weather.gov/icons/land/day/bkn,1?size=small",
-                "shortForecast": "Mostly Cloudy",
-                "detailedForecast": ""
-            },
-            {
-                "number": 76,
-                "name": "",
                 "startTime": "2023-02-20T16:00:00-06:00",
                 "endTime": "2023-02-20T17:00:00-06:00",
                 "isDaytime": true,
@@ -2093,7 +2039,7 @@
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 66
+                    "value": 67
                 },
                 "windSpeed": "20 mph",
                 "windDirection": "SW",
@@ -2102,12 +2048,12 @@
                 "detailedForecast": ""
             },
             {
-                "number": 77,
+                "number": 75,
                 "name": "",
                 "startTime": "2023-02-20T17:00:00-06:00",
                 "endTime": "2023-02-20T18:00:00-06:00",
                 "isDaytime": true,
-                "temperature": 73,
+                "temperature": 72,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
@@ -2116,20 +2062,20 @@
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 16.666666666666668
+                    "value": 17.222222222222221
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 68
+                    "value": 72
                 },
-                "windSpeed": "15 mph",
+                "windSpeed": "20 mph",
                 "windDirection": "SW",
                 "icon": "https://api.weather.gov/icons/land/day/bkn,1?size=small",
                 "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
-                "number": 78,
+                "number": 76,
                 "name": "",
                 "startTime": "2023-02-20T18:00:00-06:00",
                 "endTime": "2023-02-20T19:00:00-06:00",
@@ -2143,11 +2089,11 @@
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 16.666666666666668
+                    "value": 17.222222222222221
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 73
+                    "value": 76
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "SW",
@@ -2156,12 +2102,12 @@
                 "detailedForecast": ""
             },
             {
-                "number": 79,
+                "number": 77,
                 "name": "",
                 "startTime": "2023-02-20T19:00:00-06:00",
                 "endTime": "2023-02-20T20:00:00-06:00",
                 "isDaytime": false,
-                "temperature": 69,
+                "temperature": 70,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
@@ -2170,11 +2116,11 @@
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 16.666666666666668
+                    "value": 17.222222222222221
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 78
+                    "value": 79
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "SW",
@@ -2183,7 +2129,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 80,
+                "number": 78,
                 "name": "",
                 "startTime": "2023-02-20T20:00:00-06:00",
                 "endTime": "2023-02-20T21:00:00-06:00",
@@ -2197,11 +2143,65 @@
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 17.222222222222221
+                    "value": 17.777777777777779
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 84
+                    "value": 86
+                },
+                "windSpeed": "15 mph",
+                "windDirection": "SW",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,0?size=small",
+                "shortForecast": "Mostly Cloudy",
+                "detailedForecast": ""
+            },
+            {
+                "number": 79,
+                "name": "",
+                "startTime": "2023-02-20T21:00:00-06:00",
+                "endTime": "2023-02-20T22:00:00-06:00",
+                "isDaytime": false,
+                "temperature": 67,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "probabilityOfPrecipitation": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 0
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 17.777777777777779
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 90
+                },
+                "windSpeed": "15 mph",
+                "windDirection": "SW",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,0?size=small",
+                "shortForecast": "Mostly Cloudy",
+                "detailedForecast": ""
+            },
+            {
+                "number": 80,
+                "name": "",
+                "startTime": "2023-02-20T22:00:00-06:00",
+                "endTime": "2023-02-20T23:00:00-06:00",
+                "isDaytime": false,
+                "temperature": 67,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "probabilityOfPrecipitation": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 0
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 17.777777777777779
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 91
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "SW",
@@ -2211,60 +2211,6 @@
             },
             {
                 "number": 81,
-                "name": "",
-                "startTime": "2023-02-20T21:00:00-06:00",
-                "endTime": "2023-02-20T22:00:00-06:00",
-                "isDaytime": false,
-                "temperature": 66,
-                "temperatureUnit": "F",
-                "temperatureTrend": null,
-                "probabilityOfPrecipitation": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 0
-                },
-                "dewpoint": {
-                    "unitCode": "wmoUnit:degC",
-                    "value": 17.222222222222221
-                },
-                "relativeHumidity": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 90
-                },
-                "windSpeed": "15 mph",
-                "windDirection": "SW",
-                "icon": "https://api.weather.gov/icons/land/night/bkn,0?size=small",
-                "shortForecast": "Mostly Cloudy",
-                "detailedForecast": ""
-            },
-            {
-                "number": 82,
-                "name": "",
-                "startTime": "2023-02-20T22:00:00-06:00",
-                "endTime": "2023-02-20T23:00:00-06:00",
-                "isDaytime": false,
-                "temperature": 66,
-                "temperatureUnit": "F",
-                "temperatureTrend": null,
-                "probabilityOfPrecipitation": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 0
-                },
-                "dewpoint": {
-                    "unitCode": "wmoUnit:degC",
-                    "value": 17.222222222222221
-                },
-                "relativeHumidity": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 90
-                },
-                "windSpeed": "15 mph",
-                "windDirection": "SW",
-                "icon": "https://api.weather.gov/icons/land/night/bkn,0?size=small",
-                "shortForecast": "Mostly Cloudy",
-                "detailedForecast": ""
-            },
-            {
-                "number": 83,
                 "name": "",
                 "startTime": "2023-02-20T23:00:00-06:00",
                 "endTime": "2023-02-21T00:00:00-06:00",
@@ -2278,11 +2224,65 @@
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 17.777777777777779
+                    "value": 18.333333333333332
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 93
+                    "value": 95
+                },
+                "windSpeed": "15 mph",
+                "windDirection": "SW",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,0?size=small",
+                "shortForecast": "Mostly Cloudy",
+                "detailedForecast": ""
+            },
+            {
+                "number": 82,
+                "name": "",
+                "startTime": "2023-02-21T00:00:00-06:00",
+                "endTime": "2023-02-21T01:00:00-06:00",
+                "isDaytime": false,
+                "temperature": 66,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "probabilityOfPrecipitation": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 0
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 18.333333333333332
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 97
+                },
+                "windSpeed": "15 mph",
+                "windDirection": "SW",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,0?size=small",
+                "shortForecast": "Mostly Cloudy",
+                "detailedForecast": ""
+            },
+            {
+                "number": 83,
+                "name": "",
+                "startTime": "2023-02-21T01:00:00-06:00",
+                "endTime": "2023-02-21T02:00:00-06:00",
+                "isDaytime": false,
+                "temperature": 66,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "probabilityOfPrecipitation": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 0
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 18.333333333333332
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 97
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "SW",
@@ -2293,60 +2293,6 @@
             {
                 "number": 84,
                 "name": "",
-                "startTime": "2023-02-21T00:00:00-06:00",
-                "endTime": "2023-02-21T01:00:00-06:00",
-                "isDaytime": false,
-                "temperature": 66,
-                "temperatureUnit": "F",
-                "temperatureTrend": null,
-                "probabilityOfPrecipitation": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 2
-                },
-                "dewpoint": {
-                    "unitCode": "wmoUnit:degC",
-                    "value": 17.777777777777779
-                },
-                "relativeHumidity": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 93
-                },
-                "windSpeed": "15 mph",
-                "windDirection": "SW",
-                "icon": "https://api.weather.gov/icons/land/night/bkn,2?size=small",
-                "shortForecast": "Mostly Cloudy",
-                "detailedForecast": ""
-            },
-            {
-                "number": 85,
-                "name": "",
-                "startTime": "2023-02-21T01:00:00-06:00",
-                "endTime": "2023-02-21T02:00:00-06:00",
-                "isDaytime": false,
-                "temperature": 66,
-                "temperatureUnit": "F",
-                "temperatureTrend": null,
-                "probabilityOfPrecipitation": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 2
-                },
-                "dewpoint": {
-                    "unitCode": "wmoUnit:degC",
-                    "value": 17.777777777777779
-                },
-                "relativeHumidity": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 93
-                },
-                "windSpeed": "15 mph",
-                "windDirection": "SW",
-                "icon": "https://api.weather.gov/icons/land/night/bkn,2?size=small",
-                "shortForecast": "Mostly Cloudy",
-                "detailedForecast": ""
-            },
-            {
-                "number": 86,
-                "name": "",
                 "startTime": "2023-02-21T02:00:00-06:00",
                 "endTime": "2023-02-21T03:00:00-06:00",
                 "isDaytime": false,
@@ -2355,7 +2301,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 2
+                    "value": 0
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -2367,12 +2313,12 @@
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "SW",
-                "icon": "https://api.weather.gov/icons/land/night/bkn,2?size=small",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,0?size=small",
                 "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
-                "number": 87,
+                "number": 85,
                 "name": "",
                 "startTime": "2023-02-21T03:00:00-06:00",
                 "endTime": "2023-02-21T04:00:00-06:00",
@@ -2382,7 +2328,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 2
+                    "value": 0
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -2394,16 +2340,70 @@
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "SW",
-                "icon": "https://api.weather.gov/icons/land/night/bkn,2?size=small",
+                "icon": "https://api.weather.gov/icons/land/night/ovc,0?size=small",
+                "shortForecast": "Cloudy",
+                "detailedForecast": ""
+            },
+            {
+                "number": 86,
+                "name": "",
+                "startTime": "2023-02-21T04:00:00-06:00",
+                "endTime": "2023-02-21T05:00:00-06:00",
+                "isDaytime": false,
+                "temperature": 66,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "probabilityOfPrecipitation": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 0
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 18.333333333333332
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 97
+                },
+                "windSpeed": "15 mph",
+                "windDirection": "SW",
+                "icon": "https://api.weather.gov/icons/land/night/ovc,0?size=small",
+                "shortForecast": "Cloudy",
+                "detailedForecast": ""
+            },
+            {
+                "number": 87,
+                "name": "",
+                "startTime": "2023-02-21T05:00:00-06:00",
+                "endTime": "2023-02-21T06:00:00-06:00",
+                "isDaytime": false,
+                "temperature": 66,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "probabilityOfPrecipitation": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 0
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 18.333333333333332
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 97
+                },
+                "windSpeed": "15 mph",
+                "windDirection": "SW",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,0?size=small",
                 "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
                 "number": 88,
                 "name": "",
-                "startTime": "2023-02-21T04:00:00-06:00",
-                "endTime": "2023-02-21T05:00:00-06:00",
-                "isDaytime": false,
+                "startTime": "2023-02-21T06:00:00-06:00",
+                "endTime": "2023-02-21T07:00:00-06:00",
+                "isDaytime": true,
                 "temperature": 66,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
@@ -2421,17 +2421,17 @@
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "SW",
-                "icon": "https://api.weather.gov/icons/land/night/bkn,2?size=small",
+                "icon": "https://api.weather.gov/icons/land/day/bkn,2?size=small",
                 "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
                 "number": 89,
                 "name": "",
-                "startTime": "2023-02-21T05:00:00-06:00",
-                "endTime": "2023-02-21T06:00:00-06:00",
-                "isDaytime": false,
-                "temperature": 65,
+                "startTime": "2023-02-21T07:00:00-06:00",
+                "endTime": "2023-02-21T08:00:00-06:00",
+                "isDaytime": true,
+                "temperature": 67,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
@@ -2444,70 +2444,16 @@
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 100
+                    "value": 93
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "SW",
-                "icon": "https://api.weather.gov/icons/land/night/bkn,2?size=small",
+                "icon": "https://api.weather.gov/icons/land/day/bkn,2?size=small",
                 "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
                 "number": 90,
-                "name": "",
-                "startTime": "2023-02-21T06:00:00-06:00",
-                "endTime": "2023-02-21T07:00:00-06:00",
-                "isDaytime": true,
-                "temperature": 65,
-                "temperatureUnit": "F",
-                "temperatureTrend": null,
-                "probabilityOfPrecipitation": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 3
-                },
-                "dewpoint": {
-                    "unitCode": "wmoUnit:degC",
-                    "value": 18.333333333333332
-                },
-                "relativeHumidity": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 100
-                },
-                "windSpeed": "15 mph",
-                "windDirection": "SW",
-                "icon": "https://api.weather.gov/icons/land/day/bkn,3?size=small",
-                "shortForecast": "Mostly Cloudy",
-                "detailedForecast": ""
-            },
-            {
-                "number": 91,
-                "name": "",
-                "startTime": "2023-02-21T07:00:00-06:00",
-                "endTime": "2023-02-21T08:00:00-06:00",
-                "isDaytime": true,
-                "temperature": 67,
-                "temperatureUnit": "F",
-                "temperatureTrend": null,
-                "probabilityOfPrecipitation": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 3
-                },
-                "dewpoint": {
-                    "unitCode": "wmoUnit:degC",
-                    "value": 18.333333333333332
-                },
-                "relativeHumidity": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 93
-                },
-                "windSpeed": "15 mph",
-                "windDirection": "SW",
-                "icon": "https://api.weather.gov/icons/land/day/bkn,3?size=small",
-                "shortForecast": "Mostly Cloudy",
-                "detailedForecast": ""
-            },
-            {
-                "number": 92,
                 "name": "",
                 "startTime": "2023-02-21T08:00:00-06:00",
                 "endTime": "2023-02-21T09:00:00-06:00",
@@ -2517,7 +2463,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 3
+                    "value": 2
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -2529,66 +2475,66 @@
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "SW",
-                "icon": "https://api.weather.gov/icons/land/day/bkn,3?size=small",
+                "icon": "https://api.weather.gov/icons/land/day/bkn,2?size=small",
+                "shortForecast": "Mostly Cloudy",
+                "detailedForecast": ""
+            },
+            {
+                "number": 91,
+                "name": "",
+                "startTime": "2023-02-21T09:00:00-06:00",
+                "endTime": "2023-02-21T10:00:00-06:00",
+                "isDaytime": true,
+                "temperature": 69,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "probabilityOfPrecipitation": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 2
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 18.888888888888889
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 90
+                },
+                "windSpeed": "15 mph",
+                "windDirection": "SW",
+                "icon": "https://api.weather.gov/icons/land/day/ovc,2?size=small",
+                "shortForecast": "Cloudy",
+                "detailedForecast": ""
+            },
+            {
+                "number": 92,
+                "name": "",
+                "startTime": "2023-02-21T10:00:00-06:00",
+                "endTime": "2023-02-21T11:00:00-06:00",
+                "isDaytime": true,
+                "temperature": 71,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "probabilityOfPrecipitation": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 2
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 18.888888888888889
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 83
+                },
+                "windSpeed": "15 mph",
+                "windDirection": "SW",
+                "icon": "https://api.weather.gov/icons/land/day/bkn,2?size=small",
                 "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
                 "number": 93,
-                "name": "",
-                "startTime": "2023-02-21T09:00:00-06:00",
-                "endTime": "2023-02-21T10:00:00-06:00",
-                "isDaytime": true,
-                "temperature": 70,
-                "temperatureUnit": "F",
-                "temperatureTrend": null,
-                "probabilityOfPrecipitation": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 3
-                },
-                "dewpoint": {
-                    "unitCode": "wmoUnit:degC",
-                    "value": 18.888888888888889
-                },
-                "relativeHumidity": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 87
-                },
-                "windSpeed": "15 mph",
-                "windDirection": "SW",
-                "icon": "https://api.weather.gov/icons/land/day/bkn,3?size=small",
-                "shortForecast": "Mostly Cloudy",
-                "detailedForecast": ""
-            },
-            {
-                "number": 94,
-                "name": "",
-                "startTime": "2023-02-21T10:00:00-06:00",
-                "endTime": "2023-02-21T11:00:00-06:00",
-                "isDaytime": true,
-                "temperature": 72,
-                "temperatureUnit": "F",
-                "temperatureTrend": null,
-                "probabilityOfPrecipitation": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 3
-                },
-                "dewpoint": {
-                    "unitCode": "wmoUnit:degC",
-                    "value": 18.888888888888889
-                },
-                "relativeHumidity": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 81
-                },
-                "windSpeed": "20 mph",
-                "windDirection": "SW",
-                "icon": "https://api.weather.gov/icons/land/day/bkn,3?size=small",
-                "shortForecast": "Mostly Cloudy",
-                "detailedForecast": ""
-            },
-            {
-                "number": 95,
                 "name": "",
                 "startTime": "2023-02-21T11:00:00-06:00",
                 "endTime": "2023-02-21T12:00:00-06:00",
@@ -2598,24 +2544,24 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 3
+                    "value": 2
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 18.333333333333332
+                    "value": 18.888888888888889
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 74
+                    "value": 77
                 },
                 "windSpeed": "20 mph",
                 "windDirection": "SW",
-                "icon": "https://api.weather.gov/icons/land/day/bkn,3?size=small",
+                "icon": "https://api.weather.gov/icons/land/day/bkn,2?size=small",
                 "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
-                "number": 96,
+                "number": 94,
                 "name": "",
                 "startTime": "2023-02-21T12:00:00-06:00",
                 "endTime": "2023-02-21T13:00:00-06:00",
@@ -2625,24 +2571,24 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 6
+                    "value": 5
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 18.333333333333332
+                    "value": 18.888888888888889
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 69
+                    "value": 71
                 },
                 "windSpeed": "20 mph",
                 "windDirection": "SW",
-                "icon": "https://api.weather.gov/icons/land/day/bkn,6?size=small",
+                "icon": "https://api.weather.gov/icons/land/day/bkn,5?size=small",
                 "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
-                "number": 97,
+                "number": 95,
                 "name": "",
                 "startTime": "2023-02-21T13:00:00-06:00",
                 "endTime": "2023-02-21T14:00:00-06:00",
@@ -2652,24 +2598,24 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 6
+                    "value": 5
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 18.333333333333332
+                    "value": 18.888888888888889
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 67
+                    "value": 70
                 },
                 "windSpeed": "20 mph",
                 "windDirection": "SW",
-                "icon": "https://api.weather.gov/icons/land/day/bkn,6?size=small",
-                "shortForecast": "Partly Sunny",
+                "icon": "https://api.weather.gov/icons/land/day/bkn,5?size=small",
+                "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
-                "number": 98,
+                "number": 96,
                 "name": "",
                 "startTime": "2023-02-21T14:00:00-06:00",
                 "endTime": "2023-02-21T15:00:00-06:00",
@@ -2679,24 +2625,24 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 6
+                    "value": 5
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 17.777777777777779
+                    "value": 18.888888888888889
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 64
+                    "value": 68
                 },
                 "windSpeed": "20 mph",
                 "windDirection": "SW",
-                "icon": "https://api.weather.gov/icons/land/day/bkn,6?size=small",
+                "icon": "https://api.weather.gov/icons/land/day/bkn,5?size=small",
                 "shortForecast": "Partly Sunny",
                 "detailedForecast": ""
             },
             {
-                "number": 99,
+                "number": 97,
                 "name": "",
                 "startTime": "2023-02-21T15:00:00-06:00",
                 "endTime": "2023-02-21T16:00:00-06:00",
@@ -2706,24 +2652,24 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 6
+                    "value": 5
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 17.777777777777779
+                    "value": 18.888888888888889
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 62
+                    "value": 67
                 },
                 "windSpeed": "20 mph",
                 "windDirection": "SW",
-                "icon": "https://api.weather.gov/icons/land/day/bkn,6?size=small",
+                "icon": "https://api.weather.gov/icons/land/day/bkn,5?size=small",
                 "shortForecast": "Partly Sunny",
                 "detailedForecast": ""
             },
             {
-                "number": 100,
+                "number": 98,
                 "name": "",
                 "startTime": "2023-02-21T16:00:00-06:00",
                 "endTime": "2023-02-21T17:00:00-06:00",
@@ -2733,142 +2679,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 6
-                },
-                "dewpoint": {
-                    "unitCode": "wmoUnit:degC",
-                    "value": 17.777777777777779
-                },
-                "relativeHumidity": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 66
-                },
-                "windSpeed": "20 mph",
-                "windDirection": "SW",
-                "icon": "https://api.weather.gov/icons/land/day/bkn,6?size=small",
-                "shortForecast": "Partly Sunny",
-                "detailedForecast": ""
-            },
-            {
-                "number": 101,
-                "name": "",
-                "startTime": "2023-02-21T17:00:00-06:00",
-                "endTime": "2023-02-21T18:00:00-06:00",
-                "isDaytime": true,
-                "temperature": 74,
-                "temperatureUnit": "F",
-                "temperatureTrend": null,
-                "probabilityOfPrecipitation": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 6
-                },
-                "dewpoint": {
-                    "unitCode": "wmoUnit:degC",
-                    "value": 17.777777777777779
-                },
-                "relativeHumidity": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 71
-                },
-                "windSpeed": "20 mph",
-                "windDirection": "SW",
-                "icon": "https://api.weather.gov/icons/land/day/bkn,6?size=small",
-                "shortForecast": "Partly Sunny",
-                "detailedForecast": ""
-            },
-            {
-                "number": 102,
-                "name": "",
-                "startTime": "2023-02-21T18:00:00-06:00",
-                "endTime": "2023-02-21T19:00:00-06:00",
-                "isDaytime": false,
-                "temperature": 72,
-                "temperatureUnit": "F",
-                "temperatureTrend": null,
-                "probabilityOfPrecipitation": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 6
-                },
-                "dewpoint": {
-                    "unitCode": "wmoUnit:degC",
-                    "value": 17.777777777777779
-                },
-                "relativeHumidity": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 76
-                },
-                "windSpeed": "20 mph",
-                "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/night/bkn,6?size=small",
-                "shortForecast": "Mostly Cloudy",
-                "detailedForecast": ""
-            },
-            {
-                "number": 103,
-                "name": "",
-                "startTime": "2023-02-21T19:00:00-06:00",
-                "endTime": "2023-02-21T20:00:00-06:00",
-                "isDaytime": false,
-                "temperature": 71,
-                "temperatureUnit": "F",
-                "temperatureTrend": null,
-                "probabilityOfPrecipitation": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 6
-                },
-                "dewpoint": {
-                    "unitCode": "wmoUnit:degC",
-                    "value": 18.333333333333332
-                },
-                "relativeHumidity": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 81
-                },
-                "windSpeed": "20 mph",
-                "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/night/bkn,6?size=small",
-                "shortForecast": "Mostly Cloudy",
-                "detailedForecast": ""
-            },
-            {
-                "number": 104,
-                "name": "",
-                "startTime": "2023-02-21T20:00:00-06:00",
-                "endTime": "2023-02-21T21:00:00-06:00",
-                "isDaytime": false,
-                "temperature": 71,
-                "temperatureUnit": "F",
-                "temperatureTrend": null,
-                "probabilityOfPrecipitation": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 6
-                },
-                "dewpoint": {
-                    "unitCode": "wmoUnit:degC",
-                    "value": 18.333333333333332
-                },
-                "relativeHumidity": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 81
-                },
-                "windSpeed": "15 mph",
-                "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/night/bkn,6?size=small",
-                "shortForecast": "Mostly Cloudy",
-                "detailedForecast": ""
-            },
-            {
-                "number": 105,
-                "name": "",
-                "startTime": "2023-02-21T21:00:00-06:00",
-                "endTime": "2023-02-21T22:00:00-06:00",
-                "isDaytime": false,
-                "temperature": 70,
-                "temperatureUnit": "F",
-                "temperatureTrend": null,
-                "probabilityOfPrecipitation": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 6
+                    "value": 5
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -2876,16 +2687,151 @@
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 87
+                    "value": 70
+                },
+                "windSpeed": "20 mph",
+                "windDirection": "SW",
+                "icon": "https://api.weather.gov/icons/land/day/bkn,5?size=small",
+                "shortForecast": "Partly Sunny",
+                "detailedForecast": ""
+            },
+            {
+                "number": 99,
+                "name": "",
+                "startTime": "2023-02-21T17:00:00-06:00",
+                "endTime": "2023-02-21T18:00:00-06:00",
+                "isDaytime": true,
+                "temperature": 75,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "probabilityOfPrecipitation": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 5
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 18.888888888888889
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 74
+                },
+                "windSpeed": "20 mph",
+                "windDirection": "S",
+                "icon": "https://api.weather.gov/icons/land/day/bkn,5?size=small",
+                "shortForecast": "Partly Sunny",
+                "detailedForecast": ""
+            },
+            {
+                "number": 100,
+                "name": "",
+                "startTime": "2023-02-21T18:00:00-06:00",
+                "endTime": "2023-02-21T19:00:00-06:00",
+                "isDaytime": false,
+                "temperature": 73,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "probabilityOfPrecipitation": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 8
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 18.888888888888889
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 79
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/night/bkn,6?size=small",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,8?size=small",
                 "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
-                "number": 106,
+                "number": 101,
+                "name": "",
+                "startTime": "2023-02-21T19:00:00-06:00",
+                "endTime": "2023-02-21T20:00:00-06:00",
+                "isDaytime": false,
+                "temperature": 72,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "probabilityOfPrecipitation": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 8
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 18.888888888888889
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 82
+                },
+                "windSpeed": "15 mph",
+                "windDirection": "S",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,8?size=small",
+                "shortForecast": "Mostly Cloudy",
+                "detailedForecast": ""
+            },
+            {
+                "number": 102,
+                "name": "",
+                "startTime": "2023-02-21T20:00:00-06:00",
+                "endTime": "2023-02-21T21:00:00-06:00",
+                "isDaytime": false,
+                "temperature": 70,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "probabilityOfPrecipitation": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 8
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 18.888888888888889
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 86
+                },
+                "windSpeed": "15 mph",
+                "windDirection": "S",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,8?size=small",
+                "shortForecast": "Mostly Cloudy",
+                "detailedForecast": ""
+            },
+            {
+                "number": 103,
+                "name": "",
+                "startTime": "2023-02-21T21:00:00-06:00",
+                "endTime": "2023-02-21T22:00:00-06:00",
+                "isDaytime": false,
+                "temperature": 69,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "probabilityOfPrecipitation": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 8
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 18.888888888888889
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 90
+                },
+                "windSpeed": "15 mph",
+                "windDirection": "S",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,8?size=small",
+                "shortForecast": "Mostly Cloudy",
+                "detailedForecast": ""
+            },
+            {
+                "number": 104,
                 "name": "",
                 "startTime": "2023-02-21T22:00:00-06:00",
                 "endTime": "2023-02-21T23:00:00-06:00",
@@ -2895,7 +2841,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 6
+                    "value": 8
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -2903,43 +2849,43 @@
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 90
+                    "value": 91
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/night/bkn,6?size=small",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,8?size=small",
                 "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
-                "number": 107,
+                "number": 105,
                 "name": "",
                 "startTime": "2023-02-21T23:00:00-06:00",
                 "endTime": "2023-02-22T00:00:00-06:00",
                 "isDaytime": false,
-                "temperature": 69,
+                "temperature": 68,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 6
+                    "value": 8
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 18.333333333333332
+                    "value": 18.888888888888889
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 87
+                    "value": 92
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/night/bkn,6?size=small",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,8?size=small",
                 "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
-                "number": 108,
+                "number": 106,
                 "name": "",
                 "startTime": "2023-02-22T00:00:00-06:00",
                 "endTime": "2023-02-22T01:00:00-06:00",
@@ -2949,24 +2895,24 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 7
+                    "value": 8
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 18.333333333333332
+                    "value": 18.888888888888889
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 90
+                    "value": 93
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/night/bkn,7?size=small",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,8?size=small",
                 "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
-                "number": 109,
+                "number": 107,
                 "name": "",
                 "startTime": "2023-02-22T01:00:00-06:00",
                 "endTime": "2023-02-22T02:00:00-06:00",
@@ -2976,105 +2922,105 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 7
+                    "value": 8
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 18.333333333333332
+                    "value": 18.888888888888889
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 90
+                    "value": 93
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/night/bkn,7?size=small",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,8?size=small",
+                "shortForecast": "Mostly Cloudy",
+                "detailedForecast": ""
+            },
+            {
+                "number": 108,
+                "name": "",
+                "startTime": "2023-02-22T02:00:00-06:00",
+                "endTime": "2023-02-22T03:00:00-06:00",
+                "isDaytime": false,
+                "temperature": 68,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "probabilityOfPrecipitation": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 8
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 19.444444444444443
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 97
+                },
+                "windSpeed": "15 mph",
+                "windDirection": "S",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,8?size=small",
+                "shortForecast": "Mostly Cloudy",
+                "detailedForecast": ""
+            },
+            {
+                "number": 109,
+                "name": "",
+                "startTime": "2023-02-22T03:00:00-06:00",
+                "endTime": "2023-02-22T04:00:00-06:00",
+                "isDaytime": false,
+                "temperature": 68,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "probabilityOfPrecipitation": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 8
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 19.444444444444443
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 97
+                },
+                "windSpeed": "15 mph",
+                "windDirection": "S",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,8?size=small",
                 "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
                 "number": 110,
                 "name": "",
-                "startTime": "2023-02-22T02:00:00-06:00",
-                "endTime": "2023-02-22T03:00:00-06:00",
+                "startTime": "2023-02-22T04:00:00-06:00",
+                "endTime": "2023-02-22T05:00:00-06:00",
                 "isDaytime": false,
-                "temperature": 67,
+                "temperature": 68,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 7
+                    "value": 8
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 18.333333333333332
+                    "value": 19.444444444444443
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 93
+                    "value": 97
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/night/bkn,7?size=small",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,8?size=small",
                 "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
                 "number": 111,
-                "name": "",
-                "startTime": "2023-02-22T03:00:00-06:00",
-                "endTime": "2023-02-22T04:00:00-06:00",
-                "isDaytime": false,
-                "temperature": 67,
-                "temperatureUnit": "F",
-                "temperatureTrend": null,
-                "probabilityOfPrecipitation": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 7
-                },
-                "dewpoint": {
-                    "unitCode": "wmoUnit:degC",
-                    "value": 18.333333333333332
-                },
-                "relativeHumidity": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 93
-                },
-                "windSpeed": "15 mph",
-                "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/night/bkn,7?size=small",
-                "shortForecast": "Mostly Cloudy",
-                "detailedForecast": ""
-            },
-            {
-                "number": 112,
-                "name": "",
-                "startTime": "2023-02-22T04:00:00-06:00",
-                "endTime": "2023-02-22T05:00:00-06:00",
-                "isDaytime": false,
-                "temperature": 67,
-                "temperatureUnit": "F",
-                "temperatureTrend": null,
-                "probabilityOfPrecipitation": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 7
-                },
-                "dewpoint": {
-                    "unitCode": "wmoUnit:degC",
-                    "value": 18.333333333333332
-                },
-                "relativeHumidity": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 93
-                },
-                "windSpeed": "15 mph",
-                "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/night/bkn,7?size=small",
-                "shortForecast": "Mostly Cloudy",
-                "detailedForecast": ""
-            },
-            {
-                "number": 113,
                 "name": "",
                 "startTime": "2023-02-22T05:00:00-06:00",
                 "endTime": "2023-02-22T06:00:00-06:00",
@@ -3084,24 +3030,24 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 7
+                    "value": 8
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 18.333333333333332
+                    "value": 18.888888888888889
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 90
+                    "value": 93
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/night/bkn,7?size=small",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,8?size=small",
                 "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
-                "number": 114,
+                "number": 112,
                 "name": "",
                 "startTime": "2023-02-22T06:00:00-06:00",
                 "endTime": "2023-02-22T07:00:00-06:00",
@@ -3111,24 +3057,24 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 8
+                    "value": 10
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 18.333333333333332
+                    "value": 18.888888888888889
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 90
+                    "value": 93
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/day/bkn,8?size=small",
-                "shortForecast": "Mostly Cloudy",
+                "icon": "https://api.weather.gov/icons/land/day/bkn,10?size=small",
+                "shortForecast": "Partly Sunny",
                 "detailedForecast": ""
             },
             {
-                "number": 115,
+                "number": 113,
                 "name": "",
                 "startTime": "2023-02-22T07:00:00-06:00",
                 "endTime": "2023-02-22T08:00:00-06:00",
@@ -3138,65 +3084,92 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 8
+                    "value": 10
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 18.333333333333332
+                    "value": 18.888888888888889
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 87
+                    "value": 90
                 },
-                "windSpeed": "15 mph",
+                "windSpeed": "20 mph",
                 "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/day/bkn,8?size=small",
-                "shortForecast": "Mostly Cloudy",
+                "icon": "https://api.weather.gov/icons/land/day/bkn,10?size=small",
+                "shortForecast": "Partly Sunny",
                 "detailedForecast": ""
             },
             {
-                "number": 116,
+                "number": 114,
                 "name": "",
                 "startTime": "2023-02-22T08:00:00-06:00",
                 "endTime": "2023-02-22T09:00:00-06:00",
+                "isDaytime": true,
+                "temperature": 70,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "probabilityOfPrecipitation": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 10
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 19.444444444444443
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 90
+                },
+                "windSpeed": "20 mph",
+                "windDirection": "S",
+                "icon": "https://api.weather.gov/icons/land/day/bkn,10?size=small",
+                "shortForecast": "Partly Sunny",
+                "detailedForecast": ""
+            },
+            {
+                "number": 115,
+                "name": "",
+                "startTime": "2023-02-22T09:00:00-06:00",
+                "endTime": "2023-02-22T10:00:00-06:00",
                 "isDaytime": true,
                 "temperature": 71,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 8
+                    "value": 10
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 18.888888888888889
+                    "value": 19.444444444444443
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 84
+                    "value": 87
                 },
                 "windSpeed": "20 mph",
                 "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/day/bkn,8?size=small",
-                "shortForecast": "Mostly Cloudy",
+                "icon": "https://api.weather.gov/icons/land/day/bkn,10?size=small",
+                "shortForecast": "Partly Sunny",
                 "detailedForecast": ""
             },
             {
-                "number": 117,
+                "number": 116,
                 "name": "",
-                "startTime": "2023-02-22T09:00:00-06:00",
-                "endTime": "2023-02-22T10:00:00-06:00",
+                "startTime": "2023-02-22T10:00:00-06:00",
+                "endTime": "2023-02-22T11:00:00-06:00",
                 "isDaytime": true,
-                "temperature": 72,
+                "temperature": 73,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 8
+                    "value": 10
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 18.888888888888889
+                    "value": 19.444444444444443
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
@@ -3204,39 +3177,12 @@
                 },
                 "windSpeed": "20 mph",
                 "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/day/bkn,8?size=small",
-                "shortForecast": "Mostly Cloudy",
+                "icon": "https://api.weather.gov/icons/land/day/bkn,10?size=small",
+                "shortForecast": "Partly Sunny",
                 "detailedForecast": ""
             },
             {
-                "number": 118,
-                "name": "",
-                "startTime": "2023-02-22T10:00:00-06:00",
-                "endTime": "2023-02-22T11:00:00-06:00",
-                "isDaytime": true,
-                "temperature": 74,
-                "temperatureUnit": "F",
-                "temperatureTrend": null,
-                "probabilityOfPrecipitation": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 8
-                },
-                "dewpoint": {
-                    "unitCode": "wmoUnit:degC",
-                    "value": 18.888888888888889
-                },
-                "relativeHumidity": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 76
-                },
-                "windSpeed": "20 mph",
-                "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/day/bkn,8?size=small",
-                "shortForecast": "Mostly Cloudy",
-                "detailedForecast": ""
-            },
-            {
-                "number": 119,
+                "number": 117,
                 "name": "",
                 "startTime": "2023-02-22T11:00:00-06:00",
                 "endTime": "2023-02-22T12:00:00-06:00",
@@ -3246,24 +3192,24 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 8
+                    "value": 10
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 18.888888888888889
+                    "value": 19.444444444444443
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 71
+                    "value": 75
                 },
-                "windSpeed": "20 mph",
+                "windSpeed": "25 mph",
                 "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/day/bkn,8?size=small",
+                "icon": "https://api.weather.gov/icons/land/day/wind_bkn,10?size=small",
                 "shortForecast": "Partly Sunny",
                 "detailedForecast": ""
             },
             {
-                "number": 120,
+                "number": 118,
                 "name": "",
                 "startTime": "2023-02-22T12:00:00-06:00",
                 "endTime": "2023-02-22T13:00:00-06:00",
@@ -3277,11 +3223,11 @@
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 18.888888888888889
+                    "value": 19.444444444444443
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 67
+                    "value": 69
                 },
                 "windSpeed": "25 mph",
                 "windDirection": "S",
@@ -3290,7 +3236,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 121,
+                "number": 119,
                 "name": "",
                 "startTime": "2023-02-22T13:00:00-06:00",
                 "endTime": "2023-02-22T14:00:00-06:00",
@@ -3308,7 +3254,7 @@
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 64
+                    "value": 65
                 },
                 "windSpeed": "25 mph",
                 "windDirection": "S",
@@ -3317,7 +3263,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 122,
+                "number": 120,
                 "name": "",
                 "startTime": "2023-02-22T14:00:00-06:00",
                 "endTime": "2023-02-22T15:00:00-06:00",
@@ -3344,7 +3290,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 123,
+                "number": 121,
                 "name": "",
                 "startTime": "2023-02-22T15:00:00-06:00",
                 "endTime": "2023-02-22T16:00:00-06:00",
@@ -3358,11 +3304,11 @@
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 18.888888888888889
+                    "value": 18.333333333333332
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 62
+                    "value": 60
                 },
                 "windSpeed": "25 mph",
                 "windDirection": "S",
@@ -3371,7 +3317,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 124,
+                "number": 122,
                 "name": "",
                 "startTime": "2023-02-22T16:00:00-06:00",
                 "endTime": "2023-02-22T17:00:00-06:00",
@@ -3385,11 +3331,11 @@
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 18.888888888888889
+                    "value": 18.333333333333332
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 67
+                    "value": 64
                 },
                 "windSpeed": "20 mph",
                 "windDirection": "S",
@@ -3398,7 +3344,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 125,
+                "number": 123,
                 "name": "",
                 "startTime": "2023-02-22T17:00:00-06:00",
                 "endTime": "2023-02-22T18:00:00-06:00",
@@ -3416,7 +3362,7 @@
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 69
+                    "value": 70
                 },
                 "windSpeed": "20 mph",
                 "windDirection": "S",
@@ -3425,7 +3371,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 126,
+                "number": 124,
                 "name": "",
                 "startTime": "2023-02-22T18:00:00-06:00",
                 "endTime": "2023-02-22T19:00:00-06:00",
@@ -3452,12 +3398,12 @@
                 "detailedForecast": ""
             },
             {
-                "number": 127,
+                "number": 125,
                 "name": "",
                 "startTime": "2023-02-22T19:00:00-06:00",
                 "endTime": "2023-02-22T20:00:00-06:00",
                 "isDaytime": false,
-                "temperature": 74,
+                "temperature": 73,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
@@ -3470,16 +3416,16 @@
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 76
+                    "value": 78
                 },
-                "windSpeed": "20 mph",
+                "windSpeed": "15 mph",
                 "windDirection": "S",
                 "icon": "https://api.weather.gov/icons/land/night/bkn,3?size=small",
                 "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
-                "number": 128,
+                "number": 126,
                 "name": "",
                 "startTime": "2023-02-22T20:00:00-06:00",
                 "endTime": "2023-02-22T21:00:00-06:00",
@@ -3493,25 +3439,25 @@
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 19.444444444444443
+                    "value": 18.888888888888889
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 84
+                    "value": 82
                 },
-                "windSpeed": "20 mph",
+                "windSpeed": "15 mph",
                 "windDirection": "S",
                 "icon": "https://api.weather.gov/icons/land/night/bkn,3?size=small",
                 "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
-                "number": 129,
+                "number": 127,
                 "name": "",
                 "startTime": "2023-02-22T21:00:00-06:00",
                 "endTime": "2023-02-22T22:00:00-06:00",
                 "isDaytime": false,
-                "temperature": 71,
+                "temperature": 70,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
@@ -3520,20 +3466,20 @@
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 19.444444444444443
+                    "value": 18.888888888888889
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
                     "value": 87
                 },
-                "windSpeed": "20 mph",
+                "windSpeed": "15 mph",
                 "windDirection": "S",
                 "icon": "https://api.weather.gov/icons/land/night/bkn,3?size=small",
                 "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
-                "number": 130,
+                "number": 128,
                 "name": "",
                 "startTime": "2023-02-22T22:00:00-06:00",
                 "endTime": "2023-02-22T23:00:00-06:00",
@@ -3547,20 +3493,20 @@
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 19.444444444444443
+                    "value": 18.888888888888889
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 90
+                    "value": 87
                 },
-                "windSpeed": "20 mph",
+                "windSpeed": "15 mph",
                 "windDirection": "S",
                 "icon": "https://api.weather.gov/icons/land/night/bkn,3?size=small",
                 "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
-                "number": 131,
+                "number": 129,
                 "name": "",
                 "startTime": "2023-02-22T23:00:00-06:00",
                 "endTime": "2023-02-23T00:00:00-06:00",
@@ -3574,11 +3520,11 @@
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 18.888888888888889
+                    "value": 19.444444444444443
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 87
+                    "value": 90
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "S",
@@ -3587,21 +3533,21 @@
                 "detailedForecast": ""
             },
             {
-                "number": 132,
+                "number": 130,
                 "name": "",
                 "startTime": "2023-02-23T00:00:00-06:00",
                 "endTime": "2023-02-23T01:00:00-06:00",
                 "isDaytime": false,
-                "temperature": 69,
+                "temperature": 70,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 2
+                    "value": 0
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 18.888888888888889
+                    "value": 19.444444444444443
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
@@ -3609,12 +3555,12 @@
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/night/bkn,2?size=small",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,0?size=small",
                 "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
-                "number": 133,
+                "number": 131,
                 "name": "",
                 "startTime": "2023-02-23T01:00:00-06:00",
                 "endTime": "2023-02-23T02:00:00-06:00",
@@ -3624,34 +3570,34 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 2
+                    "value": 0
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 18.888888888888889
+                    "value": 19.444444444444443
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 90
+                    "value": 92
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/night/bkn,2?size=small",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,0?size=small",
                 "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
-                "number": 134,
+                "number": 132,
                 "name": "",
                 "startTime": "2023-02-23T02:00:00-06:00",
                 "endTime": "2023-02-23T03:00:00-06:00",
                 "isDaytime": false,
-                "temperature": 68,
+                "temperature": 69,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 2
+                    "value": 0
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -3659,16 +3605,16 @@
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 93
+                    "value": 91
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/night/bkn,2?size=small",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,0?size=small",
                 "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
-                "number": 135,
+                "number": 133,
                 "name": "",
                 "startTime": "2023-02-23T03:00:00-06:00",
                 "endTime": "2023-02-23T04:00:00-06:00",
@@ -3678,7 +3624,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 2
+                    "value": 0
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -3690,22 +3636,22 @@
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/night/bkn,2?size=small",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,0?size=small",
                 "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
-                "number": 136,
+                "number": 134,
                 "name": "",
                 "startTime": "2023-02-23T04:00:00-06:00",
                 "endTime": "2023-02-23T05:00:00-06:00",
                 "isDaytime": false,
-                "temperature": 67,
+                "temperature": 68,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 2
+                    "value": 0
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -3713,16 +3659,16 @@
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 97
+                    "value": 94
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/night/bkn,2?size=small",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,0?size=small",
                 "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
-                "number": 137,
+                "number": 135,
                 "name": "",
                 "startTime": "2023-02-23T05:00:00-06:00",
                 "endTime": "2023-02-23T06:00:00-06:00",
@@ -3732,115 +3678,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 2
-                },
-                "dewpoint": {
-                    "unitCode": "wmoUnit:degC",
-                    "value": 18.333333333333332
-                },
-                "relativeHumidity": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 93
-                },
-                "windSpeed": "15 mph",
-                "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/night/bkn,2?size=small",
-                "shortForecast": "Mostly Cloudy",
-                "detailedForecast": ""
-            },
-            {
-                "number": 138,
-                "name": "",
-                "startTime": "2023-02-23T06:00:00-06:00",
-                "endTime": "2023-02-23T07:00:00-06:00",
-                "isDaytime": true,
-                "temperature": 66,
-                "temperatureUnit": "F",
-                "temperatureTrend": null,
-                "probabilityOfPrecipitation": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 1
-                },
-                "dewpoint": {
-                    "unitCode": "wmoUnit:degC",
-                    "value": 18.333333333333332
-                },
-                "relativeHumidity": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 97
-                },
-                "windSpeed": "15 mph",
-                "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/day/bkn,1?size=small",
-                "shortForecast": "Partly Sunny",
-                "detailedForecast": ""
-            },
-            {
-                "number": 139,
-                "name": "",
-                "startTime": "2023-02-23T07:00:00-06:00",
-                "endTime": "2023-02-23T08:00:00-06:00",
-                "isDaytime": true,
-                "temperature": 68,
-                "temperatureUnit": "F",
-                "temperatureTrend": null,
-                "probabilityOfPrecipitation": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 1
-                },
-                "dewpoint": {
-                    "unitCode": "wmoUnit:degC",
-                    "value": 18.888888888888889
-                },
-                "relativeHumidity": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 93
-                },
-                "windSpeed": "15 mph",
-                "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/day/bkn,1?size=small",
-                "shortForecast": "Partly Sunny",
-                "detailedForecast": ""
-            },
-            {
-                "number": 140,
-                "name": "",
-                "startTime": "2023-02-23T08:00:00-06:00",
-                "endTime": "2023-02-23T09:00:00-06:00",
-                "isDaytime": true,
-                "temperature": 70,
-                "temperatureUnit": "F",
-                "temperatureTrend": null,
-                "probabilityOfPrecipitation": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 1
-                },
-                "dewpoint": {
-                    "unitCode": "wmoUnit:degC",
-                    "value": 18.888888888888889
-                },
-                "relativeHumidity": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 87
-                },
-                "windSpeed": "15 mph",
-                "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/day/bkn,1?size=small",
-                "shortForecast": "Partly Sunny",
-                "detailedForecast": ""
-            },
-            {
-                "number": 141,
-                "name": "",
-                "startTime": "2023-02-23T09:00:00-06:00",
-                "endTime": "2023-02-23T10:00:00-06:00",
-                "isDaytime": true,
-                "temperature": 72,
-                "temperatureUnit": "F",
-                "temperatureTrend": null,
-                "probabilityOfPrecipitation": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 1
+                    "value": 0
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -3848,16 +3686,124 @@
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 84
+                    "value": 99
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/day/bkn,1?size=small",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,0?size=small",
+                "shortForecast": "Mostly Cloudy",
+                "detailedForecast": ""
+            },
+            {
+                "number": 136,
+                "name": "",
+                "startTime": "2023-02-23T06:00:00-06:00",
+                "endTime": "2023-02-23T07:00:00-06:00",
+                "isDaytime": true,
+                "temperature": 67,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "probabilityOfPrecipitation": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 3
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 19.444444444444443
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 100
+                },
+                "windSpeed": "15 mph",
+                "windDirection": "S",
+                "icon": "https://api.weather.gov/icons/land/day/bkn,3?size=small",
                 "shortForecast": "Partly Sunny",
                 "detailedForecast": ""
             },
             {
-                "number": 142,
+                "number": 137,
+                "name": "",
+                "startTime": "2023-02-23T07:00:00-06:00",
+                "endTime": "2023-02-23T08:00:00-06:00",
+                "isDaytime": true,
+                "temperature": 69,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "probabilityOfPrecipitation": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 3
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 20
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 97
+                },
+                "windSpeed": "15 mph",
+                "windDirection": "S",
+                "icon": "https://api.weather.gov/icons/land/day/bkn,3?size=small",
+                "shortForecast": "Partly Sunny",
+                "detailedForecast": ""
+            },
+            {
+                "number": 138,
+                "name": "",
+                "startTime": "2023-02-23T08:00:00-06:00",
+                "endTime": "2023-02-23T09:00:00-06:00",
+                "isDaytime": true,
+                "temperature": 71,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "probabilityOfPrecipitation": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 3
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 20
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 90
+                },
+                "windSpeed": "15 mph",
+                "windDirection": "S",
+                "icon": "https://api.weather.gov/icons/land/day/bkn,3?size=small",
+                "shortForecast": "Partly Sunny",
+                "detailedForecast": ""
+            },
+            {
+                "number": 139,
+                "name": "",
+                "startTime": "2023-02-23T09:00:00-06:00",
+                "endTime": "2023-02-23T10:00:00-06:00",
+                "isDaytime": true,
+                "temperature": 73,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "probabilityOfPrecipitation": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 3
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 20.555555555555557
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 87
+                },
+                "windSpeed": "15 mph",
+                "windDirection": "S",
+                "icon": "https://api.weather.gov/icons/land/day/bkn,3?size=small",
+                "shortForecast": "Partly Sunny",
+                "detailedForecast": ""
+            },
+            {
+                "number": 140,
                 "name": "",
                 "startTime": "2023-02-23T10:00:00-06:00",
                 "endTime": "2023-02-23T11:00:00-06:00",
@@ -3867,51 +3813,51 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 1
+                    "value": 3
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 19.444444444444443
+                    "value": 20.555555555555557
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 76
+                    "value": 81
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/day/bkn,1?size=small",
-                "shortForecast": "Partly Sunny",
-                "detailedForecast": ""
-            },
-            {
-                "number": 143,
-                "name": "",
-                "startTime": "2023-02-23T11:00:00-06:00",
-                "endTime": "2023-02-23T12:00:00-06:00",
-                "isDaytime": true,
-                "temperature": 77,
-                "temperatureUnit": "F",
-                "temperatureTrend": null,
-                "probabilityOfPrecipitation": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 1
-                },
-                "dewpoint": {
-                    "unitCode": "wmoUnit:degC",
-                    "value": 18.888888888888889
-                },
-                "relativeHumidity": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 69
-                },
-                "windSpeed": "15 mph",
-                "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/day/sct,1?size=small",
+                "icon": "https://api.weather.gov/icons/land/day/sct,3?size=small",
                 "shortForecast": "Mostly Sunny",
                 "detailedForecast": ""
             },
             {
-                "number": 144,
+                "number": 141,
+                "name": "",
+                "startTime": "2023-02-23T11:00:00-06:00",
+                "endTime": "2023-02-23T12:00:00-06:00",
+                "isDaytime": true,
+                "temperature": 78,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "probabilityOfPrecipitation": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 3
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 20
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 72
+                },
+                "windSpeed": "15 mph",
+                "windDirection": "S",
+                "icon": "https://api.weather.gov/icons/land/day/sct,3?size=small",
+                "shortForecast": "Mostly Sunny",
+                "detailedForecast": ""
+            },
+            {
+                "number": 142,
                 "name": "",
                 "startTime": "2023-02-23T12:00:00-06:00",
                 "endTime": "2023-02-23T13:00:00-06:00",
@@ -3925,11 +3871,11 @@
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 18.888888888888889
+                    "value": 20
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 62
+                    "value": 67
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "S",
@@ -3938,7 +3884,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 145,
+                "number": 143,
                 "name": "",
                 "startTime": "2023-02-23T13:00:00-06:00",
                 "endTime": "2023-02-23T14:00:00-06:00",
@@ -3952,20 +3898,20 @@
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 18.888888888888889
+                    "value": 20
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 60
+                    "value": 65
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/day/sct,7?size=small",
-                "shortForecast": "Mostly Sunny",
+                "icon": "https://api.weather.gov/icons/land/day/bkn,7?size=small",
+                "shortForecast": "Partly Sunny",
                 "detailedForecast": ""
             },
             {
-                "number": 146,
+                "number": 144,
                 "name": "",
                 "startTime": "2023-02-23T14:00:00-06:00",
                 "endTime": "2023-02-23T15:00:00-06:00",
@@ -3979,20 +3925,20 @@
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 18.333333333333332
+                    "value": 19.444444444444443
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 58
+                    "value": 62
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/day/sct,7?size=small",
-                "shortForecast": "Mostly Sunny",
+                "icon": "https://api.weather.gov/icons/land/day/bkn,7?size=small",
+                "shortForecast": "Partly Sunny",
                 "detailedForecast": ""
             },
             {
-                "number": 147,
+                "number": 145,
                 "name": "",
                 "startTime": "2023-02-23T15:00:00-06:00",
                 "endTime": "2023-02-23T16:00:00-06:00",
@@ -4006,20 +3952,20 @@
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 18.333333333333332
+                    "value": 19.444444444444443
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 56
+                    "value": 61
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/day/sct,7?size=small",
-                "shortForecast": "Mostly Sunny",
+                "icon": "https://api.weather.gov/icons/land/day/bkn,7?size=small",
+                "shortForecast": "Partly Sunny",
                 "detailedForecast": ""
             },
             {
-                "number": 148,
+                "number": 146,
                 "name": "",
                 "startTime": "2023-02-23T16:00:00-06:00",
                 "endTime": "2023-02-23T17:00:00-06:00",
@@ -4033,20 +3979,20 @@
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 18.333333333333332
+                    "value": 19.444444444444443
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 60
+                    "value": 64
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/day/sct,7?size=small",
-                "shortForecast": "Mostly Sunny",
+                "icon": "https://api.weather.gov/icons/land/day/bkn,7?size=small",
+                "shortForecast": "Partly Sunny",
                 "detailedForecast": ""
             },
             {
-                "number": 149,
+                "number": 147,
                 "name": "",
                 "startTime": "2023-02-23T17:00:00-06:00",
                 "endTime": "2023-02-23T18:00:00-06:00",
@@ -4060,11 +4006,11 @@
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 18.333333333333332
+                    "value": 18.888888888888889
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 62
+                    "value": 65
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "S",
@@ -4073,7 +4019,7 @@
                 "detailedForecast": ""
             },
             {
-                "number": 150,
+                "number": 148,
                 "name": "",
                 "startTime": "2023-02-23T18:00:00-06:00",
                 "endTime": "2023-02-23T19:00:00-06:00",
@@ -4083,24 +4029,24 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 6
+                    "value": 9
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 18.333333333333332
+                    "value": 18.888888888888889
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 67
+                    "value": 69
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/night/bkn,6?size=small",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,9?size=small",
                 "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
-                "number": 151,
+                "number": 149,
                 "name": "",
                 "startTime": "2023-02-23T19:00:00-06:00",
                 "endTime": "2023-02-23T20:00:00-06:00",
@@ -4110,24 +4056,24 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 6
+                    "value": 9
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
-                    "value": 18.333333333333332
+                    "value": 18.888888888888889
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 71
+                    "value": 74
                 },
                 "windSpeed": "15 mph",
                 "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/night/sct,6?size=small",
-                "shortForecast": "Partly Cloudy",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,9?size=small",
+                "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
-                "number": 152,
+                "number": 150,
                 "name": "",
                 "startTime": "2023-02-23T20:00:00-06:00",
                 "endTime": "2023-02-23T21:00:00-06:00",
@@ -4137,7 +4083,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 6
+                    "value": 9
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -4145,16 +4091,16 @@
                 },
                 "relativeHumidity": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 79
+                    "value": 78
                 },
-                "windSpeed": "10 mph",
-                "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/night/sct,6?size=small",
-                "shortForecast": "Partly Cloudy",
+                "windSpeed": "15 mph",
+                "windDirection": "SE",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,9?size=small",
+                "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
-                "number": 153,
+                "number": 151,
                 "name": "",
                 "startTime": "2023-02-23T21:00:00-06:00",
                 "endTime": "2023-02-23T22:00:00-06:00",
@@ -4164,7 +4110,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 6
+                    "value": 9
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -4174,14 +4120,14 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 84
                 },
-                "windSpeed": "10 mph",
-                "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/night/sct,6?size=small",
-                "shortForecast": "Partly Cloudy",
+                "windSpeed": "15 mph",
+                "windDirection": "SE",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,9?size=small",
+                "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
-                "number": 154,
+                "number": 152,
                 "name": "",
                 "startTime": "2023-02-23T22:00:00-06:00",
                 "endTime": "2023-02-23T23:00:00-06:00",
@@ -4191,7 +4137,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 6
+                    "value": 9
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -4201,14 +4147,14 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 84
                 },
-                "windSpeed": "10 mph",
+                "windSpeed": "15 mph",
                 "windDirection": "SE",
-                "icon": "https://api.weather.gov/icons/land/night/sct,6?size=small",
-                "shortForecast": "Partly Cloudy",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,9?size=small",
+                "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
-                "number": 155,
+                "number": 153,
                 "name": "",
                 "startTime": "2023-02-23T23:00:00-06:00",
                 "endTime": "2023-02-24T00:00:00-06:00",
@@ -4218,7 +4164,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 6
+                    "value": 9
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -4228,14 +4174,14 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 87
                 },
-                "windSpeed": "10 mph",
+                "windSpeed": "15 mph",
                 "windDirection": "E",
-                "icon": "https://api.weather.gov/icons/land/night/bkn,6?size=small",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,9?size=small",
                 "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
-                "number": 156,
+                "number": 154,
                 "name": "",
                 "startTime": "2023-02-24T00:00:00-06:00",
                 "endTime": "2023-02-24T01:00:00-06:00",
@@ -4245,7 +4191,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 5
+                    "value": 6
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -4255,9 +4201,63 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 87
                 },
+                "windSpeed": "15 mph",
+                "windDirection": "E",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,6?size=small",
+                "shortForecast": "Mostly Cloudy",
+                "detailedForecast": ""
+            },
+            {
+                "number": 155,
+                "name": "",
+                "startTime": "2023-02-24T01:00:00-06:00",
+                "endTime": "2023-02-24T02:00:00-06:00",
+                "isDaytime": false,
+                "temperature": 66,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "probabilityOfPrecipitation": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 6
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 16.666666666666668
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 86
+                },
+                "windSpeed": "15 mph",
+                "windDirection": "NE",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,6?size=small",
+                "shortForecast": "Mostly Cloudy",
+                "detailedForecast": ""
+            },
+            {
+                "number": 156,
+                "name": "",
+                "startTime": "2023-02-24T02:00:00-06:00",
+                "endTime": "2023-02-24T03:00:00-06:00",
+                "isDaytime": false,
+                "temperature": 66,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "probabilityOfPrecipitation": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 6
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 16.666666666666668
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 88
+                },
                 "windSpeed": "10 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/night/bkn,5?size=small",
+                "icon": "https://api.weather.gov/icons/land/night/bkn,6?size=small",
                 "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             }
