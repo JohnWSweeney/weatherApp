@@ -57,8 +57,9 @@ void getForecast()
 		std::cout << "Hourly forecast downloaded." << std::endl;
 	}
 	else {
-		std::cout << "Hourly forecast download failed." << std::endl;
+		std::cout << "Hourly forecast download failed." << '\n' << std::endl;
 	}
+	std::cout << std::endl;
 }
 
 int main()
@@ -71,9 +72,13 @@ int main()
 	json forecastData = nlohmann::json::parse(buffer.str());
 
 	std::string lastUpdate = forecastData["properties"]["updated"].get<std::string>();
-	std::cout << lastUpdate << std::endl;
-	//int temp = forecastData["properties"]["periods"]["temperature"].get<int>();
-	//std::cout << temp << std::endl;
+	//std::cout << lastUpdate << std::endl;
+	std::cout << "Current conditions:" << std::endl;
+	int temp = forecastData["properties"]["periods"][0]["temperature"].get<int>();
+	std::cout << "Temperature: " << temp << " \370F" << std::endl;
+	std::string detailedForecast = forecastData["properties"]["periods"][0]["detailedForecast"].get<std::string>();
+	std::cout << detailedForecast << std::endl;
+	std::cout << std::endl;
 
 	system("pause");
 }
