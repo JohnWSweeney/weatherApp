@@ -12,8 +12,37 @@ using json = nlohmann::json;
 void getCoordinates()
 {
 	// Get coordinates
+	std::string input, tempStr;
+	std::vector<std::string> tokens;
+
+	std::cout << "Enter street number, name, and zip code:" << std::endl;
+
+	getline(std::cin, input, '\n');
+	std::stringstream strStream(input);
+
+	while (getline(strStream, tempStr, ' '))
+	{
+		tokens.push_back(tempStr);
+	}
+
+	std::string streetNum = tokens[0];
+	std::string zip = tokens[tokens.size() - 1];
+	
 	std::string filePath = "D:/CPP/weatherApp/weatherApp/coordinates.json";
-	std::string url = "https://geocoding.geo.census.gov/geocoder/locations/address?street=305+Gerald&zip=70503&benchmark=2020&format=json";
+	//std::string url = "https://geocoding.geo.census.gov/geocoder/locations/address?street=305+Gerald&zip=70503&benchmark=2020&format=json";
+
+	std::string urlStart = "https://geocoding.geo.census.gov/geocoder/locations/address?street=";
+	std::string urlEnd = "&benchmark=2020&format=json";
+	std::string urlMid;
+
+	for (int i = 1; i < tokens.size() - 1; i++)
+	{
+		urlMid = urlMid + "+" + tokens[i];
+	}
+
+	urlMid = streetNum + urlMid + "&zip=" + zip;
+
+	std::string url = urlStart + urlMid + urlEnd;
 
 	LPCTSTR wsFilePath = filePath.c_str();
 	LPCTSTR wsUrl = url.c_str();
@@ -114,6 +143,7 @@ void hourlyForecast()
 
 int main()
 {
+	std::cout << "weatherApp v1.0.0" << std::endl;
 	getCoordinates();
 	getForecast();
 	currentConditions();
