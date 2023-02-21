@@ -1,0 +1,43 @@
+{
+	"result": {
+		"input": {
+			"address": {
+				"zip": "70506",
+				"street": "218 W St Mary Blvd"
+			},
+			"benchmark": {
+				"isDefault": false,
+				"benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+				"id": "2020",
+				"benchmarkName": "Public_AR_Census2020"
+			}
+		},
+		"addressMatches": [
+			{
+				"tigerLine": {
+					"side": "R",
+					"tigerLineId": "85615828"
+				},
+				"coordinates": {
+					"x": -92.02268330814472,
+					"y": 30.215174394447275
+				},
+				"addressComponents": {
+					"zip": "70506",
+					"streetName": "ST MARY",
+					"preType": "",
+					"city": "LAFAYETTE",
+					"preDirection": "W",
+					"suffixDirection": "",
+					"fromAddress": "100",
+					"state": "LA",
+					"suffixType": "BLVD",
+					"toAddress": "298",
+					"suffixQualifier": "",
+					"preQualifier": ""
+				},
+				"matchedAddress": "218 W ST MARY BLVD, LAFAYETTE, LA, 70506"
+			}
+		]
+	}
+}

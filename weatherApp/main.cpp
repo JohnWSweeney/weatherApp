@@ -9,7 +9,7 @@
 
 using json = nlohmann::json;
 
-void getCoordinates()
+int getCoordinates()
 {
 	// Get coordinates
 	std::string input, tempStr;
@@ -29,8 +29,6 @@ void getCoordinates()
 	std::string zip = tokens[tokens.size() - 1];
 	
 	std::string filePath = "D:/CPP/weatherApp/weatherApp/coordinates.json";
-	//std::string url = "https://geocoding.geo.census.gov/geocoder/locations/address?street=305+Gerald&zip=70503&benchmark=2020&format=json";
-
 	std::string urlStart = "https://geocoding.geo.census.gov/geocoder/locations/address?street=";
 	std::string urlEnd = "&benchmark=2020&format=json";
 	std::string urlMid;
@@ -53,13 +51,49 @@ void getCoordinates()
 	else {
 		std::cout << "Coordinates download failed." << std::endl;
 	}
+
+	//empty check
+	std::ifstream data("D:/CPP/weatherApp/weatherApp/coordinates.json");
+	std::stringstream buffer;
+	buffer << data.rdbuf();
+	json asdf = nlohmann::json::parse(buffer.str());
+
+	if (asdf["result"]["addressMatches"].empty())
+	{
+		std::cout << "Invalid address." << std::endl;
+		return 0;
+	}
+	else
+	{
+		std::cout << "Valid coordinates found." << std::endl;
+		return 1;
+	}
+	
 }
 
 void getForecast()
 {
 	// Get station data
 	std::string filePath = "D:/CPP/weatherApp/weatherApp/stationData.json";
-	std::string url = "https://api.weather.gov/points/30.1799,-92.0557";
+
+	std::ifstream data("D:/CPP/weatherApp/weatherApp/coordinates.json");
+	std::stringstream buffer;
+	buffer << data.rdbuf();
+	json asdf = nlohmann::json::parse(buffer.str());
+
+	float x = asdf["result"]["addressMatches"][0]["coordinates"]["x"].get<float>();
+	float y = asdf["result"]["addressMatches"][0]["coordinates"]["y"].get<float>();
+
+	std::ostringstream sx;
+	sx << x;
+	std::string xStr = sx.str();
+
+	std::ostringstream sy;
+	sy << y;
+	std::string yStr = sy.str();
+
+	std::string urlStart = "https://api.weather.gov/points/";
+	std::string url = urlStart + yStr + "," + xStr;
 
 	LPCTSTR wsFilePath = filePath.c_str();
 	LPCTSTR wsUrl = url.c_str();
@@ -71,15 +105,14 @@ void getForecast()
 		std::cout << "Station data download failed." << std::endl;
 	}
 
-	std::ifstream data("D:/CPP/weatherApp/weatherApp/stationData.json");
-	std::stringstream buffer;
-	buffer << data.rdbuf();
-	json stationData = nlohmann::json::parse(buffer.str());
+	std::ifstream data1("D:/CPP/weatherApp/weatherApp/stationData.json");
+	std::stringstream buffer1;
+	buffer1 << data1.rdbuf();
+	json stationData = nlohmann::json::parse(buffer1.str());
 	
 	// Get forecast
 	std::string forecastFilePath = "D:/CPP/weatherApp/weatherApp/forecast.json";
 	std::string forecastURL = stationData["properties"]["forecast"].get<std::string>();
-	//std::cout << forecastURL << std::endl;
 
 	LPCTSTR wsForecastFilePath = forecastFilePath.c_str();
 	LPCTSTR wsForecastURL = forecastURL.c_str();
@@ -94,7 +127,6 @@ void getForecast()
 	// Get hourly forecast
 	std::string hourlyForecastFilePath = "D:/CPP/weatherApp/weatherApp/hourlyForecast.json";
 	std::string hourlyForecastURL = stationData["properties"]["forecastHourly"].get<std::string>();
-	//std::cout << hourlyForecastURL << std::endl;
 
 	LPCTSTR wshourlyForecastFilePath = hourlyForecastFilePath.c_str();
 	LPCTSTR wshourlyForecasttURL = hourlyForecastURL.c_str();
@@ -116,7 +148,6 @@ void currentConditions()
 	json forecastData = nlohmann::json::parse(buffer.str());
 
 	std::string lastUpdate = forecastData["properties"]["updated"].get<std::string>();
-	//std::cout << lastUpdate << std::endl;
 	std::cout << "Current conditions:" << std::endl;
 	int temp = forecastData["properties"]["periods"][0]["temperature"].get<int>();
 	std::cout << "Temperature: " << temp << " \370F" << std::endl;
@@ -144,10 +175,16 @@ void hourlyForecast()
 int main()
 {
 	std::cout << "weatherApp v1.0.0" << std::endl;
-	getCoordinates();
-	getForecast();
-	currentConditions();
-	hourlyForecast();
+	while (true)
+	{
+		int result = getCoordinates();
+		if (result != 0)
+		{
+			getForecast();
+			currentConditions();
+			//hourlyForecast();
+		}
+	}
 
-	system("pause");
+	//system("pause");
 }
