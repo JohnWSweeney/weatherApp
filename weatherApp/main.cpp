@@ -33,6 +33,8 @@ int getCoordinates()
 	std::string urlEnd = "&benchmark=2020&format=json";
 	std::string urlMid;
 
+	std::string dummyUrl = "https://old.reddit.com/r/asdfasdfasdfasdfasdfasdfasdfasdfasfsdfasdf/";
+
 	for (int i = 1; i < tokens.size() - 1; i++)
 	{
 		urlMid = urlMid + "+" + tokens[i];
@@ -44,12 +46,15 @@ int getCoordinates()
 
 	LPCTSTR wsFilePath = filePath.c_str();
 	LPCTSTR wsUrl = url.c_str();
+	LPCTSTR wsDummyUrl = dummyUrl.c_str();
 
-	if (S_OK == URLDownloadToFile(NULL, wsUrl, wsFilePath, 0, NULL)) {
+	//if (S_OK == URLDownloadToFile(NULL, wsUrl, wsFilePath, 0, NULL)) {
+	if (S_OK == URLDownloadToFile(NULL, wsDummyUrl, wsFilePath, 0, NULL)) {
 		std::cout << "Coordinates downloaded." << std::endl;
 	}
 	else {
 		std::cout << "Coordinates download failed." << std::endl;
+		return 0;
 	}
 
 	//empty check
