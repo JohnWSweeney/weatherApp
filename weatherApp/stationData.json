@@ -42,46 +42,46 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/points/30.1366,-92.105",
+    "id": "https://api.weather.gov/points/30.1813,-92.0663",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -92.105000000000004,
-            30.136600000000001
+            -92.066299999999998,
+            30.1813
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/points/30.1366,-92.105",
+        "@id": "https://api.weather.gov/points/30.1813,-92.0663",
         "@type": "wx:Point",
         "cwa": "LCH",
         "forecastOffice": "https://api.weather.gov/offices/LCH",
         "gridId": "LCH",
-        "gridX": 101,
-        "gridY": 90,
-        "forecast": "https://api.weather.gov/gridpoints/LCH/101,90/forecast",
-        "forecastHourly": "https://api.weather.gov/gridpoints/LCH/101,90/forecast/hourly",
-        "forecastGridData": "https://api.weather.gov/gridpoints/LCH/101,90",
-        "observationStations": "https://api.weather.gov/gridpoints/LCH/101,90/stations",
+        "gridX": 103,
+        "gridY": 92,
+        "forecast": "https://api.weather.gov/gridpoints/LCH/103,92/forecast",
+        "forecastHourly": "https://api.weather.gov/gridpoints/LCH/103,92/forecast/hourly",
+        "forecastGridData": "https://api.weather.gov/gridpoints/LCH/103,92",
+        "observationStations": "https://api.weather.gov/gridpoints/LCH/103,92/stations",
         "relativeLocation": {
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -92.121021999999996,
-                    30.103484999999999
+                    -92.028482999999994,
+                    30.207432000000001
                 ]
             },
             "properties": {
-                "city": "Maurice",
+                "city": "Lafayette",
                 "state": "LA",
                 "distance": {
                     "unitCode": "wmoUnit:m",
-                    "value": 3991.6793120805
+                    "value": 4653.3060947058002
                 },
                 "bearing": {
                     "unitCode": "wmoUnit:degree_(angle)",
-                    "value": 22
+                    "value": 231
                 }
             }
         },

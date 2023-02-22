@@ -48,8 +48,8 @@ int getCoordinates()
 	LPCTSTR wsUrl = url.c_str();
 	LPCTSTR wsDummyUrl = dummyUrl.c_str();
 
-	//if (S_OK == URLDownloadToFile(NULL, wsUrl, wsFilePath, 0, NULL)) {
-	if (S_OK == URLDownloadToFile(NULL, wsDummyUrl, wsFilePath, 0, NULL)) {
+	if (S_OK == URLDownloadToFile(NULL, wsUrl, wsFilePath, 0, NULL)) {
+	//if (S_OK == URLDownloadToFile(NULL, wsDummyUrl, wsFilePath, 0, NULL)) {
 		std::cout << "Coordinates downloaded." << std::endl;
 	}
 	else {
@@ -187,7 +187,7 @@ int main()
 		{
 			getForecast();
 			currentConditions();
-			//hourlyForecast();
+			hourlyForecast();
 		}
 	}
 
