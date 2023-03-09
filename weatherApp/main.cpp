@@ -169,7 +169,7 @@ void hourlyForecast()
 	json hourlyForecastData = nlohmann::json::parse(buffer.str());
 
 	std::cout << "Forecast:" << std::endl;
-	for (int i = 0; i < 155; i++)
+	for (int i = 0; i < 11; i++)
 	{
 		int temp = hourlyForecastData["properties"]["periods"][i]["temperature"].get<int>();
 		std::string time = hourlyForecastData["properties"]["periods"][i]["startTime"].get<std::string>();
