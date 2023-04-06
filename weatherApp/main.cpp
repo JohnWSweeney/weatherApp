@@ -4,7 +4,10 @@ int main()
 {
 	std::cout << "weatherApp v0.0.0" << std::endl;
 
-	getCoordinates();
+	float lat, lon;
+	std::string currentDirectory = getCoordinates(&lat, &lon);
+	std::string stationFilepath = getStation(lat, lon, currentDirectory);
+	getForecast(stationFilepath, currentDirectory);
 
 	system("pause");
 }
