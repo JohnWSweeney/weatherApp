@@ -8,6 +8,7 @@ int main()
 	std::string currentDirectory = getCoordinates(&lat, &lon);
 	std::string stationFilepath = getStation(lat, lon, currentDirectory);
 	getForecast(stationFilepath, currentDirectory);
+	currentConditions(currentDirectory);
 
 	system("pause");
 }
