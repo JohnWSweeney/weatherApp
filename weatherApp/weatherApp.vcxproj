@@ -127,8 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="display.cpp" />
-    <ClCompile Include="functions.cpp" />
+    <ClCompile Include="processData.cpp" />
+    <ClCompile Include="getData.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>

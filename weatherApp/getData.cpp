@@ -1,12 +1,7 @@
 #include "header.h"
-#include <sstream>
-#include <fstream>
 #include <filesystem>
 #include <Windows.h>
 #pragma comment(lib, "urlmon.lib") //
-#include <nlohmann/json.hpp>
-
-using json = nlohmann::json;
 
 std::string getCoordinates(float* lat, float* lon)
 {

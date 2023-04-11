@@ -9,6 +9,7 @@ int main()
 	std::string stationFilepath = getStation(lat, lon, currentDirectory);
 	getForecast(stationFilepath, currentDirectory);
 	currentConditions(currentDirectory);
+	forecast(currentDirectory);
 
 	system("pause");
 }
