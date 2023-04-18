@@ -7,9 +7,12 @@ int main()
 	float lat, lon;
 	std::string currentDirectory = getCoordinates(&lat, &lon);
 	std::string stationFilepath = getStation(lat, lon, currentDirectory);
-	getForecast(stationFilepath, currentDirectory);
-	currentConditions(currentDirectory);
-	forecast(currentDirectory);
+	getForecasts(stationFilepath, currentDirectory);
+
+	forecastData newForecast;
+	newForecast = hourlyForecastExtractor(currentDirectory, newForecast);
+	newForecast = forecastExtractor(currentDirectory, newForecast);
+	currentConditions(newForecast);
 
 	system("pause");
 }

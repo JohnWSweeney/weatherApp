@@ -99,7 +99,7 @@ std::string getStation(float lat, float lon, std::string currentDirectory)
 	return stationFilepath;
 }
 
-void getForecast(std::string stationFilepath, std::string currentDirectory)
+void getForecasts(std::string stationFilepath, std::string currentDirectory)
 {
 	// Build file paths for forecast, hourly forecast json files.
 	std::string forecastFilepath = currentDirectory + "/forecast.json";

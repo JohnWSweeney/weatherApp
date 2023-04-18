@@ -18,10 +18,13 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="getData.cpp">
+    <ClCompile Include="displayData.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="processData.cpp">
+    <ClCompile Include="extractData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fetchData.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
