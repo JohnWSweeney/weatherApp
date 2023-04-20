@@ -7,5 +7,12 @@ Enter *streetNumber streetName zipCode* to get forecast. For example, enter
 
 for the forecast near the NYC Flatiron Building.
 
-Future updates:
+### Motivation
+I wanted a project that would develop my coding skills and also do something useful. Building v1 required learning json and improved my understanding of data structures, functions, program architeture, and basic data analysis.
+
+### Design Overview
+
+
+### Future Updates
 - Auto location detection (IP address, GPS)
+- GUI version
