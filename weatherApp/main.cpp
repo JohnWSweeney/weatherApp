@@ -2,7 +2,7 @@
 
 int main()
 {
-	std::cout << "weatherApp v0.0.0" << std::endl;
+	std::cout << "weatherApp v1.0.0" << std::endl;
 
 	float lat, lon;
 	std::string currentDirectory = getCoordinates(&lat, &lon);
@@ -12,8 +12,8 @@ int main()
 	forecastData newForecast;
 	newForecast = hourlyForecastExtractor(currentDirectory, newForecast);
 	newForecast = forecastExtractor(currentDirectory, newForecast);
-	currentConditions(newForecast);
-	fiveDayForecast(newForecast);
+	int index = currentConditions(newForecast);
+	fiveDayForecast(newForecast, index);
 
 	system("pause");
 }

@@ -1,7 +1,8 @@
 #include "header.h"
 
-void currentConditions(forecastData newForecast)
+int currentConditions(forecastData newForecast)
 {
+	// display today's date and forecast.
 	std::cout << "---------------------------------" << std::endl;
 	std::cout << newForecast.day[0] << ", " << newForecast.month[0] << " " << newForecast.dayNum[0] << ", ";
 	std::cout << newForecast.year[0] << std::endl;
@@ -10,64 +11,47 @@ void currentConditions(forecastData newForecast)
 	std::cout << newForecast.temperature[0] << "\370F, ";
 	std::cout << newForecast.precipitation[0] << "% chance of precipitation" << std::endl;
 	std::cout << newForecast.detailedForecast << std::endl;
-}
-
-void fiveDayForecast(forecastData newForecast)
-{
-	dailyForecast today, tomorrow, secondDay, thirdDay, fourthDay, fifthDay;
-
-	// today
+	// display forecast for the rest of today.
+	dailyForecast today;
 	today = reader(newForecast, today, today.index);
 	std::cout << "---------------------------------" << std::endl;
-	std::cout << "Forecast for the rest of today: " << std::endl;
+	std::cout << "Forecast for the rest of today:" << std::endl;
 	std::cout << "---------------------------------" << std::endl;
-	std::cout << "Temperature Max/Min: " << today.temperatureMax << ", " << today.temperatureMin << std::endl;
-	std::cout << "Precipitation Max/Min: " << today.precipitationMax << ", " << today.precipitationMin << std::endl;
-	std::cout << "Humidity Max/Min: " << today.humidityMax << ", " << today.humidityMin << std::endl;
+	std::cout << "Temperature range (F): " << today.temperatureMin << "\370 - " << today.temperatureMax << "\370" << std::endl;
+	std::cout << "Precipitation range (%): " << today.precipitationMin << " - " << today.precipitationMax << std::endl;
+	std::cout << "Humidity range (%): " << today.humidityMin << " - " << today.humidityMax << std::endl;
 	std::cout << "---------------------------------" << std::endl;
-	// tomorrow
-	tomorrow = reader(newForecast, tomorrow, today.index);
-	std::cout << tomorrow.day << ", " << tomorrow.month << " " << tomorrow.dayNum << ", ";
-	std::cout << tomorrow.year << std::endl;
+	return today.index;
+}
+
+void singleDayForecast(dailyForecast day)
+{
+	// display day's date and forecast.
+	std::cout << day.day << ", " << day.month << " " << day.dayNum << ", ";
+	std::cout << day.year << std::endl;
 	std::cout << "---------------------------------" << std::endl;
-	std::cout << "Temperature Max/Min: " << tomorrow.temperatureMax << ", " << tomorrow.temperatureMin << std::endl;
-	std::cout << "Precipitation Max/Min: " << tomorrow.precipitationMax << ", " << tomorrow.precipitationMin << std::endl;
-	std::cout << "Humidity Max/Min: " << tomorrow.humidityMax << ", " << tomorrow.humidityMin << std::endl;
+	std::cout << "Temperature range (F): " << day.temperatureMin << "\370 - " << day.temperatureMax << "\370" << std::endl;
+	std::cout << "Precipitation range (%): " << day.precipitationMin << " - " << day.precipitationMax << std::endl;
+	std::cout << "Humidity range (%): " << day.humidityMin << " - " << day.humidityMax << std::endl;
 	std::cout << "---------------------------------" << std::endl;
-	// second day
+}
+
+void fiveDayForecast(forecastData newForecast, int index)
+{
+	dailyForecast tomorrow, secondDay, thirdDay, fourthDay, fifthDay;
+	// tomorrow's forecast.
+	tomorrow = reader(newForecast, tomorrow, index);
+	singleDayForecast(tomorrow);
+	// second day's forecast.
 	secondDay = reader(newForecast, secondDay, tomorrow.index);
-	std::cout << secondDay.day << ", " << secondDay.month << " " << secondDay.dayNum << ", ";
-	std::cout << secondDay.year << std::endl;
-	std::cout << "---------------------------------" << std::endl;
-	std::cout << "Temperature Max/Min: " << secondDay.temperatureMax << ", " << secondDay.temperatureMin << std::endl;
-	std::cout << "Precipitation Max/Min: " << secondDay.precipitationMax << ", " << secondDay.precipitationMin << std::endl;
-	std::cout << "Humidity Max/Min: " << secondDay.humidityMax << ", " << secondDay.humidityMin << std::endl;
-	std::cout << "---------------------------------" << std::endl;
-	// third day
+	singleDayForecast(secondDay);
+	// third day's forecast.
 	thirdDay = reader(newForecast, thirdDay, secondDay.index);
-	std::cout << thirdDay.day << ", " << thirdDay.month << " " << thirdDay.dayNum << ", ";
-	std::cout << thirdDay.year << std::endl;
-	std::cout << "---------------------------------" << std::endl;
-	std::cout << "Temperature Max/Min: " << thirdDay.temperatureMax << ", " << thirdDay.temperatureMin << std::endl;
-	std::cout << "Precipitation Max/Min: " << thirdDay.precipitationMax << ", " << thirdDay.precipitationMin << std::endl;
-	std::cout << "Humidity Max/Min: " << thirdDay.humidityMax << ", " << thirdDay.humidityMin << std::endl;
-	std::cout << "---------------------------------" << std::endl;
-	// fourth day
+	singleDayForecast(thirdDay);
+	// fourth day's forecast.
 	fourthDay = reader(newForecast, fourthDay, thirdDay.index);
-	std::cout << fourthDay.day << ", " << fourthDay.month << " " << fourthDay.dayNum << ", ";
-	std::cout << fourthDay.year << std::endl;
-	std::cout << "---------------------------------" << std::endl;
-	std::cout << "Temperature Max/Min: " << fourthDay.temperatureMax << ", " << fourthDay.temperatureMin << std::endl;
-	std::cout << "Precipitation Max/Min: " << fourthDay.precipitationMax << ", " << fourthDay.precipitationMin << std::endl;
-	std::cout << "Humidity Max/Min: " << fourthDay.humidityMax << ", " << fourthDay.humidityMin << std::endl;
-	std::cout << "---------------------------------" << std::endl;
-	// fifth day
+	singleDayForecast(fourthDay);
+	// fifth day's forecast.
 	fifthDay = reader(newForecast, fifthDay, fourthDay.index);
-	std::cout << fifthDay.day << ", " << fifthDay.month << " " << fifthDay.dayNum << ", ";
-	std::cout << fifthDay.year << std::endl;
-	std::cout << "---------------------------------" << std::endl;
-	std::cout << "Temperature Max/Min: " << fifthDay.temperatureMax << ", " << fifthDay.temperatureMin << std::endl;
-	std::cout << "Precipitation Max/Min: " << fifthDay.precipitationMax << ", " << fifthDay.precipitationMin << std::endl;
-	std::cout << "Humidity Max/Min: " << fifthDay.humidityMax << ", " << fifthDay.humidityMin << std::endl;
-	std::cout << "---------------------------------" << std::endl;
+	singleDayForecast(fifthDay);
 }

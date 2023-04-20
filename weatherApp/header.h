@@ -46,8 +46,9 @@ forecastData forecastExtractor(std::string currentDirectory, forecastData);
 forecastData hourlyForecastExtractor(std::string currentDirectory, forecastData);
 
 // processData.cpp
-dailyForecast reader(forecastData newForecast, dailyForecast day, int i);
+dailyForecast reader(forecastData newForecast, dailyForecast day, int index);
 
 // displayData.cpp
-void currentConditions(forecastData);
-void fiveDayForecast(forecastData newForecast);
+int currentConditions(forecastData);
+void singleDayForecast(dailyForecast day);
+void fiveDayForecast(forecastData newForecast, int index);

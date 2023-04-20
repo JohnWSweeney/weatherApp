@@ -2,7 +2,7 @@
 
 forecastData forecastExtractor(std::string currentDirectory, forecastData newForecast)
 {
-	// .
+	// extract data from forecast.json to dailyForecast struct.
 	std::string forecastFilepath = currentDirectory + "/forecast.json";
 	std::ifstream forecastJSON(forecastFilepath);
 	std::stringstream forecastJSONbuf;
@@ -14,7 +14,7 @@ forecastData forecastExtractor(std::string currentDirectory, forecastData newFor
 
 forecastData hourlyForecastExtractor(std::string currentDirectory, forecastData newForecast)
 {
-	// .
+	// extract data from hourlyforecast.json to dailyForecast struct.
 	std::string hourlyForecastFilepath = currentDirectory + "/hourlyForecast.json";
 	std::ifstream hourlyForecastJSON(hourlyForecastFilepath);
 	std::stringstream hourlyForecastJSONbuf;
