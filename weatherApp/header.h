@@ -21,7 +21,22 @@ struct forecastData
 	std::string detailedForecast;
 };
 
-// fetData.cpp
+struct dailyForecast
+{
+	std::string year;
+	std::string month;
+	std::string day;
+	std::string dayNum;
+	int temperatureMax;
+	int temperatureMin;
+	int precipitationMax;
+	int precipitationMin;
+	int humidityMax;
+	int humidityMin;
+	int index = 0;
+};
+
+// fetchData.cpp
 std::string getCoordinates(float* lat, float* lon);
 std::string getStation(float lat, float lon, std::string currentDirectory);
 void getForecasts(std::string stationFilepath, std::string currentDirectory);
@@ -31,6 +46,8 @@ forecastData forecastExtractor(std::string currentDirectory, forecastData);
 forecastData hourlyForecastExtractor(std::string currentDirectory, forecastData);
 
 // processData.cpp
+dailyForecast reader(forecastData newForecast, dailyForecast day, int i);
 
 // displayData.cpp
 void currentConditions(forecastData);
+void fiveDayForecast(forecastData newForecast);

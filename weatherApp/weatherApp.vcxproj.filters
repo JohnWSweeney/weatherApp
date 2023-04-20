@@ -27,6 +27,9 @@
     <ClCompile Include="fetchData.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="processData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h">

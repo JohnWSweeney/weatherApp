@@ -131,6 +131,7 @@
     <ClCompile Include="extractData.cpp" />
     <ClCompile Include="fetchData.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="processData.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h" />

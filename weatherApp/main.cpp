@@ -13,6 +13,7 @@ int main()
 	newForecast = hourlyForecastExtractor(currentDirectory, newForecast);
 	newForecast = forecastExtractor(currentDirectory, newForecast);
 	currentConditions(newForecast);
+	fiveDayForecast(newForecast);
 
 	system("pause");
 }
