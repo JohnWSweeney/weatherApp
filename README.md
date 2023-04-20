@@ -1,6 +1,6 @@
 # weatherApp
 
-A console app returning current conditions and hourly forecast provided by the US National Weather Service.
+A console app returning current conditions and five day forecast provided by the US National Weather Service.
 
 Enter *streetNumber streetName zipCode* to get forecast. For example, enter
 > 175 5th 10010
