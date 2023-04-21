@@ -42,53 +42,53 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/points/30.1813,-92.0663",
+    "id": "https://api.weather.gov/points/40.741,-73.9899",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -92.066299999999998,
-            30.1813
+            -73.989900000000006,
+            40.741
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/points/30.1813,-92.0663",
+        "@id": "https://api.weather.gov/points/40.741,-73.9899",
         "@type": "wx:Point",
-        "cwa": "LCH",
-        "forecastOffice": "https://api.weather.gov/offices/LCH",
-        "gridId": "LCH",
-        "gridX": 104,
-        "gridY": 93,
-        "forecast": "https://api.weather.gov/gridpoints/LCH/104,93/forecast",
-        "forecastHourly": "https://api.weather.gov/gridpoints/LCH/104,93/forecast/hourly",
-        "forecastGridData": "https://api.weather.gov/gridpoints/LCH/104,93",
-        "observationStations": "https://api.weather.gov/gridpoints/LCH/104,93/stations",
+        "cwa": "OKX",
+        "forecastOffice": "https://api.weather.gov/offices/OKX",
+        "gridId": "OKX",
+        "gridX": 34,
+        "gridY": 36,
+        "forecast": "https://api.weather.gov/gridpoints/OKX/34,36/forecast",
+        "forecastHourly": "https://api.weather.gov/gridpoints/OKX/34,36/forecast/hourly",
+        "forecastGridData": "https://api.weather.gov/gridpoints/OKX/34,36",
+        "observationStations": "https://api.weather.gov/gridpoints/OKX/34,36/stations",
         "relativeLocation": {
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -92.028482999999994,
-                    30.207432000000001
+                    -74.0279259,
+                    40.745251000000003
                 ]
             },
             "properties": {
-                "city": "Lafayette",
-                "state": "LA",
+                "city": "Hoboken",
+                "state": "NJ",
                 "distance": {
                     "unitCode": "wmoUnit:m",
-                    "value": 4653.3060947058002
+                    "value": 3238.2234938083002
                 },
                 "bearing": {
                     "unitCode": "wmoUnit:degree_(angle)",
-                    "value": 231
+                    "value": 98
                 }
             }
         },
-        "forecastZone": "https://api.weather.gov/zones/forecast/LAZ044",
-        "county": "https://api.weather.gov/zones/county/LAC055",
-        "fireWeatherZone": "https://api.weather.gov/zones/fire/LAZ044",
-        "timeZone": "America/Chicago",
-        "radarStation": "KLCH"
+        "forecastZone": "https://api.weather.gov/zones/forecast/NYZ072",
+        "county": "https://api.weather.gov/zones/county/NYC061",
+        "fireWeatherZone": "https://api.weather.gov/zones/fire/NYZ212",
+        "timeZone": "America/New_York",
+        "radarStation": "KDIX"
     }
 }

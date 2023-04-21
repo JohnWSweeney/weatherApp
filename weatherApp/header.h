@@ -3,6 +3,7 @@
 #include <sstream>
 #include <fstream>
 #include <vector>
+#include <Windows.h>
 #include <nlohmann/json.hpp>
 
 using json = nlohmann::json;
@@ -35,6 +36,10 @@ struct dailyForecast
 	int humidityMin;
 	int index = 0;
 };
+
+// start.cpp
+void newForecast();
+void start();
 
 // fetchData.cpp
 std::string getCoordinates(float* lat, float* lon);
