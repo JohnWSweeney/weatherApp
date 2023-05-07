@@ -1,6 +1,6 @@
 # weatherApp
 
-A console app returning current conditions and a five day forecast provided by the US National Weather Service.
+A Windows console app returning current conditions and a five day forecast provided by the US National Weather Service.
 
 Enter *streetNumber streetName zipCode* to get forecast. For example, enter
 > 175 5th 10010
@@ -26,6 +26,19 @@ So the basic order of operations is as follows:
 - GUI version.
 
 ### Known Issues
-- App crashes on invalid address input or may report previous forecast data.
-  - High priority: functions need error/exception handling.
+- newForecast function occasionally fails to download forecast jsons.
+- Functions in extractData, processData, and displayData cpps need error/exception handling.
 - User input on new forecast prompt is case-sensitive.
+
+### ChangeLog
+v1.2.0
+- Added return code exception handling to functions in fetchData cpp.
+- Divided getCoordinates function into separate functions.
+- Added housekeeping.cpp with the following functions:
+	- Generate json download filepaths.
+	- Generic download file function.
+	- Clear forecastData struct buffers.
+	- Delete downloaded json files when forecast terminated, app closes.
+- Fixed bug causing crash on empty user input.
+- Moved start() function to main().
+

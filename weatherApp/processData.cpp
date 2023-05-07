@@ -1,20 +1,20 @@
-#include "header.h"
+#include "weatherApp.h"
 #include <algorithm>
 
 dailyForecast reader(forecastData newForecast, dailyForecast day, int index)
 {
-	// store date at first index.
+	// Store date at first index.
 	std::string ref = newForecast.day[index];
 	day.year = newForecast.year[index];
 	day.month = newForecast.month[index];
 	day.day = newForecast.day[index];
 	day.dayNum = newForecast.dayNum[index];
-	// declare buffer vectors for weather fields.
+	// Declare buffer vectors for weather fields.
 	std::vector<int> tempBuf;
 	std::vector<int> precipBuf;
 	std::vector<int> humBuf;
 
-	// populate buffer vectors until day changes.
+	// Populate buffer vectors until day changes.
 	do {
 		tempBuf.push_back(newForecast.temperature[index]);
 		precipBuf.push_back(newForecast.precipitation[index]);
@@ -22,7 +22,7 @@ dailyForecast reader(forecastData newForecast, dailyForecast day, int index)
 		++index;
 	} while (newForecast.day[index] == ref);
 
-	// find max, min values in temp vectors.
+	// Find max, min values in buffer vectors.
 	auto result = std::minmax_element(tempBuf.begin(), tempBuf.end());
 	day.temperatureMin = *result.first;
 	day.temperatureMax = *result.second;

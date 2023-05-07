@@ -1,23 +1,12 @@
-#include "header.h"
+#include "weatherApp.h"
 #include <filesystem>
 #include <Windows.h>
 #pragma comment(lib, "urlmon.lib") //
 
-std::string getCoordinates(float* lat, float* lon)
+int getCoordinates(forecastData &newForecast, std::vector<std::string> &tokens)
 {
 	std::cout << "Enter street number, street name, and zip code:" << std::endl;
-
-	std::string input, tempStr;
-	std::vector<std::string> tokens;
-
-	// Tokenize user input.
-	std::getline(std::cin, input, '\n');
-	std::stringstream strStream(input);
-	while (getline(strStream, tempStr, ' '))
-	{
-		tokens.push_back(tempStr);
-	}
-
+	getInput(tokens);
 	// Assign first,last tokens to street number, zip code strings, respectively.
 	std::string streetNum = tokens[0];
 	std::string zip = tokens[tokens.size() - 1];
@@ -34,101 +23,96 @@ std::string getCoordinates(float* lat, float* lon)
 	std::string urlMiddle = streetNum + streetName + "&zip=" + zip;
 	std::string urlEnd = "&benchmark=2020&format=json";
 	std::string geocoderURL = urlStart + urlMiddle + urlEnd;
-	LPCTSTR lpctstrGeocoderURL = geocoderURL.c_str(); // null-terminated.
-
-	// Build file path for coordinates json file.
-	std::filesystem::path currentDirectoryPath = std::filesystem::current_path();
-	std::string currentDirectory = currentDirectoryPath.string();
-	std::string coordinatesFilepath = currentDirectory + "/coordinates.json";
-	LPCTSTR lpctstrFilepath = coordinatesFilepath.c_str();
 
 	// Download coordinates json file from US Census Bureau Geocoder.
-	if (S_OK == URLDownloadToFile(NULL, lpctstrGeocoderURL, lpctstrFilepath, 0, NULL))
+	int result = downloadFileFromURL(geocoderURL, newForecast.coordinatesFilepath);
+	if (result == 1)
 	{
 		std::cout << "Coordinates downloaded." << std::endl;
+		return 1;
 	}
 	else
 	{
 		std::cout << "Coordinates download failed." << std::endl;
+		return 0;
 	}
+}
 
+int verifyCoordinates(forecastData &newForecast)
+{
 	// Verify coordinates field is populated in json file, copy coordinates.
-	std::ifstream coordinatesJSON(coordinatesFilepath);
+	std::ifstream coordinatesJSON(newForecast.coordinatesFilepath);
 	std::stringstream coordinatesJSONBuffer;
 	coordinatesJSONBuffer << coordinatesJSON.rdbuf();
 	json coordinatesData = nlohmann::json::parse(coordinatesJSONBuffer.str());
 	if (coordinatesData["result"]["addressMatches"].empty())
 	{
 		std::cout << "Invalid address." << std::endl;
+		return 0;
 	}
 	else
 	{
 		std::cout << "Valid coordinates found." << std::endl;
-		*lat = coordinatesData["result"]["addressMatches"][0]["coordinates"]["y"].get<float>();
-		*lon = coordinatesData["result"]["addressMatches"][0]["coordinates"]["x"].get<float>();
+		newForecast.lat = coordinatesData["result"]["addressMatches"][0]["coordinates"]["y"].get<float>();
+		newForecast.lon = coordinatesData["result"]["addressMatches"][0]["coordinates"]["x"].get<float>();
+		return 1;
 	}
-
-	return currentDirectory;
 }
 
-std::string getStation(float lat, float lon, std::string currentDirectory)
+int getStation(forecastData &newForecast)
 {
-	std::cout << "lat: " << lat << '\t' << "long: " << lon << std::endl;
+	std::cout << "lat: " << newForecast.lat << '\t' << "long: " << newForecast.lon << std::endl;
 
 	// Build url to National Weather Service.
 	std::string url = "https://api.weather.gov/points/";
-	std::string latSTr = std::to_string(lat);
-	std::string lonStr = std::to_string(lon);
+	std::string latSTr = std::to_string(newForecast.lat);
+	std::string lonStr = std::to_string(newForecast.lon);
 	url = url + latSTr + "," + lonStr;
-	LPCTSTR lpctstrURL = url.c_str();
 
-	// Build file path for station json file.
-	std::string stationFilepath = currentDirectory + "/station.json";
-	LPCTSTR lpctstrfilepath = stationFilepath.c_str();
-
-	// Download station data from National Weather Service.
-	if (S_OK == URLDownloadToFile(NULL, lpctstrURL, lpctstrfilepath, 0, NULL))
+	int result = downloadFileFromURL(url, newForecast.stationFilepath);
+	if (result == 1)
 	{
 		std::cout << "Station data downloaded." << std::endl;
+		return 1;
 	}
 	else
-
 	{
 		std::cout << "Station data download failed." << std::endl;
+		return 0;
 	}
-	return stationFilepath;
+
 }
 
-void getForecasts(std::string stationFilepath, std::string currentDirectory)
+int downloadForecasts(forecastData &newForecast)
 {
-	// Build file paths for forecast, hourly forecast json files.
-	std::string forecastFilepath = currentDirectory + "/forecast.json";
-	std::string hourlyForecastFilepath = currentDirectory + "/hourlyForecast.json";
-	LPCTSTR lpctstrForecastFilepath = forecastFilepath.c_str();
-	LPCTSTR lpctstrHourlyForecastFilepath = hourlyForecastFilepath.c_str();
-
 	// Extract forecast, forecastHourly json links from station json.
-	std::ifstream stationJSON(stationFilepath);
+	std::ifstream stationJSON(newForecast.stationFilepath);
 	std::stringstream stationJSONBuffer;
 	stationJSONBuffer << stationJSON.rdbuf();
 	json stationData = nlohmann::json::parse(stationJSONBuffer.str());
 	std::string forecastURL = stationData["properties"]["forecast"].get<std::string>();
 	std::string hourlyForecastURL = stationData["properties"]["forecastHourly"].get<std::string>();
-	LPCTSTR lpctstrForecastURL = forecastURL.c_str();
-	LPCTSTR lpctstrHourlyForecastURL = hourlyForecastURL.c_str();
 
 	// Download forecast, hourly forcast json files from National Weather Service.
-	if (S_OK == URLDownloadToFile(NULL, lpctstrForecastURL, lpctstrForecastFilepath, 0, NULL)) {
+	int result = downloadFileFromURL(forecastURL, newForecast.forecastFilepath);
+	if (result == 1)
+	{
 		std::cout << "Forecast downloaded." << std::endl;
 	}
-	else {
+	else
+	{
 		std::cout << "Forecast download failed." << std::endl;
+		return 0;
 	}
 
-	if (S_OK == URLDownloadToFile(NULL, lpctstrHourlyForecastURL, lpctstrHourlyForecastFilepath, 0, NULL)) {
+	result = downloadFileFromURL(hourlyForecastURL, newForecast.hourlyForecastFilepath);
+	if (result == 1)
+	{
 		std::cout << "Hourly forecast downloaded." << std::endl;
+		return 1;
 	}
 	else {
 		std::cout << "Hourly forecast download failed." << '\n' << std::endl;
+		return 0;
 	}
 }

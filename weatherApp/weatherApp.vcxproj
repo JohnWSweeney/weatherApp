@@ -130,12 +130,13 @@
     <ClCompile Include="displayData.cpp" />
     <ClCompile Include="extractData.cpp" />
     <ClCompile Include="fetchData.cpp" />
+    <ClCompile Include="housekeeping.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="processData.cpp" />
     <ClCompile Include="start.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="header.h" />
+    <ClInclude Include="weatherApp.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />

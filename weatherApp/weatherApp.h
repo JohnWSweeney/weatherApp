@@ -10,6 +10,13 @@ using json = nlohmann::json;
 
 struct forecastData
 {
+	float lat;
+	float lon;
+	std::string currentDirectory;
+	std::string coordinatesFilepath;
+	std::string stationFilepath;
+	std::string forecastFilepath;
+	std::string hourlyForecastFilepath;
 	std::vector<std::string> year;
 	std::vector<std::string> month;
 	std::vector<std::string> day;
@@ -20,6 +27,7 @@ struct forecastData
 	std::vector<int> precipitation;
 	std::vector<int> humidity;
 	std::string detailedForecast;
+	void clearData();
 };
 
 struct dailyForecast
@@ -38,17 +46,19 @@ struct dailyForecast
 };
 
 // start.cpp
-void newForecast();
-void start();
+void getInput(std::vector<std::string> &tokens);
+int getForecast(forecastData &newForecast, std::vector<std::string> &tokens);
+void queryNewForecast(bool &running, std::vector<std::string> &tokens);
 
 // fetchData.cpp
-std::string getCoordinates(float* lat, float* lon);
-std::string getStation(float lat, float lon, std::string currentDirectory);
-void getForecasts(std::string stationFilepath, std::string currentDirectory);
+int getCoordinates(forecastData &newForecast, std::vector<std::string> &tokens);
+int verifyCoordinates(forecastData &newForecast);
+int getStation(forecastData &newForecast);
+int downloadForecasts(forecastData &newForecast);
 
 // extractData.cpp
-forecastData forecastExtractor(std::string currentDirectory, forecastData);
-forecastData hourlyForecastExtractor(std::string currentDirectory, forecastData);
+void forecastExtractor(forecastData &newForecast);
+void hourlyForecastExtractor(forecastData &newForecast);
 
 // processData.cpp
 dailyForecast reader(forecastData newForecast, dailyForecast day, int index);
@@ -57,3 +67,8 @@ dailyForecast reader(forecastData newForecast, dailyForecast day, int index);
 int currentConditions(forecastData);
 void singleDayForecast(dailyForecast day);
 void fiveDayForecast(forecastData newForecast, int index);
+
+// housekeeping.cpp
+int downloadFileFromURL(std::string url, std::string filepath);
+void getFilepaths(forecastData &newForecast);
+void cleanup(forecastData &newForecast);

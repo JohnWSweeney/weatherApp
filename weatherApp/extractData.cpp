@@ -1,22 +1,19 @@
-#include "header.h"
+#include "weatherApp.h"
 
-forecastData forecastExtractor(std::string currentDirectory, forecastData newForecast)
+void forecastExtractor(forecastData &newForecast)
 {
-	// extract data from forecast.json to dailyForecast struct.
-	std::string forecastFilepath = currentDirectory + "/forecast.json";
-	std::ifstream forecastJSON(forecastFilepath);
+	// Extract detailed forecast from forecast.json, copy to dailyForecast struct.
+	std::ifstream forecastJSON(newForecast.forecastFilepath);
 	std::stringstream forecastJSONbuf;
 	forecastJSONbuf << forecastJSON.rdbuf();
 	json forecast = nlohmann::json::parse(forecastJSONbuf.str());
 	newForecast.detailedForecast = forecast["properties"]["periods"][0]["detailedForecast"].get<std::string>();
-	return newForecast;
 }
 
-forecastData hourlyForecastExtractor(std::string currentDirectory, forecastData newForecast)
+void hourlyForecastExtractor(forecastData &newForecast)
 {
-	// extract data from hourlyforecast.json to dailyForecast struct.
-	std::string hourlyForecastFilepath = currentDirectory + "/hourlyForecast.json";
-	std::ifstream hourlyForecastJSON(hourlyForecastFilepath);
+	// Extract data from hourlyforecast.json to dailyForecast struct.
+	std::ifstream hourlyForecastJSON(newForecast.hourlyForecastFilepath);
 	std::stringstream hourlyForecastJSONbuf;
 	hourlyForecastJSONbuf << hourlyForecastJSON.rdbuf();
 	json hourlyForecast = nlohmann::json::parse(hourlyForecastJSONbuf.str());
@@ -64,5 +61,4 @@ forecastData hourlyForecastExtractor(std::string currentDirectory, forecastData 
 		newForecast.precipitation.push_back(pop);
 		newForecast.humidity.push_back(relHum);
 	}
-	return newForecast;
 }
